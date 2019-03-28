@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CapabilityStatement xmlns="http://hl7.org/fhir">
+	<id value="client"/>
+	<url value="http://hl7.org/fhir/hspc/podiatrywound/CapabilityStatement/client"/>
+	<name value="Client"/>
+	<status value="draft"/>
+	<date value="2019-03-02"/>
+	<publisher value="HSPC"/>
+	<contact>
+		<telecom>
+			<system value="email"/>
+			<value value="HSPC@HSPConsortium.org"/>
+		</telecom>
+	</contact>
+	<description value="This resource defines the expected capabilities "/>
+	<kind value="requirements"/>
+	<fhirVersion value="3.0.1"/>
+	<acceptUnknown value="extensions"/>
+	<format value="xml"/>
+	<format value="json"/>
+	<rest>
+		<mode value="client"/>
+
+		<resource>
+			<type value="Basic"/>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="search-type"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="read"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="history-instance"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="vread"/>
+			</interaction>
+		</resource>
+
+	</rest>
+</CapabilityStatement>

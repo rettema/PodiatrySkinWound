@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+    <!--© 2018 IHC Health Services, Inc. All Rights Reserved. This document is machine generated.-->
+    <id value="WoundRelatedObservationsPanel"/>
+    <url value="http://hl7.org/fhir/hspc/podiatrywound/StructureDefinition/WoundRelatedObservationsPanel"/>
+    <name value="WoundRelatedObservationsPanel"/>
+    <title value="Wound Related Observations Panel"/>
+    <status value="draft"/>
+    <date value="2019-03-23"/>
+    <publisher value="CIMI"/>
+    <description value="Observations that are linked to a wound."/>
+    <fhirVersion value="3.0.1"/>
+    <kind value="resource"/>
+    <abstract value="false"/>
+    <type value="Observation"/>
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Observation"/>
+    <derivation value="constraint"/>
+    <differential>
+        <element id="Observation:cimiWoundRelatedObservationsPanel">
+            <path value="Observation"/>
+            <definition value="Observations that are linked to a wound"/>
+        </element>
+		<element id="Observation:cimiWoundRelatedObservationsPanel.value[x]">
+			<path value="Observation.value[x]"/>
+			<min value="0"/>
+			<max value="0"/>
+		</element>
+		<element id="Observation:cimiWoundRelatedObservationsPanel.related">
+			<path value="Observation.related"/>
+			<sliceName value="RelatedObservations"/>
+            <slicing id="10">
+                <discriminator>
+                    <type value="profile"/>
+                    <path value="target.reference.resolve"/>
+                </discriminator>
+                <ordered value="false"/>
+                <rules value="open"/>
+            </slicing>
+            <min value="0"/>
+            <max value="*"/>
+		</element>
+		<element id="Observation:cimiWoundRelatedObservationsPanel.related:woundBed">
+			<path value="Observation.related"/>
+			<sliceName value="woundBed"/>
+			<short value="Wound Bed"/>
+			<min value="0"/>
+			<max value="*"/>
+		</element>
+		<element id="Observation:cimiWoundRelatedObservationsPanel.related:woundBed.type">
+			<path value="Observation.related.type"/>
+			<fixedCode value="has-member"/>
+		</element>
+		<element id="Observation:cimiWoundRelatedObservationsPanel.related.target:woundBed">
+			<path value="Observation.related.target"/>
+			<type>
+				<code value="Reference"/>
+				<targetProfile value="http://hl7.org/fhir/hspc/podiatrywound/StructureDefinition/WoundBed"/>
+			</type>
+		</element>
+		<element id="Observation:cimiWoundRelatedObservationsPanel.related:woundEdge">
+			<path value="Observation.related"/>
+			<sliceName value="woundEdge"/>
+			<short value="Wound Edge"/>
+			<min value="0"/>
+			<max value="*"/>
+		</element>
+		<element id="Observation:cimiWoundRelatedObservationsPanel.related:woundEdge.type">
+			<path value="Observation.related.type"/>
+			<fixedCode value="has-member"/>
+		</element>
+		<element id="Observation:cimiWoundRelatedObservationsPanel.related.target:woundEdge">
+			<path value="Observation.related.target"/>
+			<type>
+				<code value="Reference"/>
+				<targetProfile value="http://hl7.org/fhir/hspc/podiatrywound/StructureDefinition/WoundEdge"/>
+			</type>
+		</element>
+		<element id="Observation:cimiWoundRelatedObservationsPanel.related:woundSize">
+			<path value="Observation.related"/>
+			<sliceName value="woundSize"/>
+			<short value="Wound Size"/>
+			<min value="0"/>
+			<max value="1"/>
+		</element>
+		<element id="Observation:cimiWoundRelatedObservationsPanel.related:woundSize.type">
+			<path value="Observation.related.type"/>
+			<fixedCode value="has-member"/>
+		</element>
+		<element id="Observation:cimiWoundRelatedObservationsPanel.related.target:woundSize">
+			<path value="Observation.related.target"/>
+			<type>
+				<code value="Reference"/>
+				<targetProfile value="http://hl7.org/fhir/hspc/podiatrywound/StructureDefinition/WoundSize"/>
+			</type>
+		</element>
+    </differential>
+</StructureDefinition>

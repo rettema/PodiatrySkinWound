@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+    <!--© 2018 IHC Health Services, Inc. All Rights Reserved. This document is machine generated.-->
+    <id value="PodiatryWoundRelatedObservationsPanel"/>
+    <url value="http://hl7.org/fhir/hspc/podiatrywound/StructureDefinition/PodiatryWoundRelatedObservationsPanel"/>
+    <name value="PodiatryWoundRelatedObservationsPanel"/>
+    <title value="Podiatry Wound Related Observations Panel"/>
+    <status value="draft"/>
+    <date value="2019-03-23"/>
+    <publisher value="CIMI"/>
+    <description value="Observations that are linked to a wound."/>
+    <fhirVersion value="3.0.1"/>
+    <kind value="resource"/>
+    <abstract value="false"/>
+    <type value="Observation"/>
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Observation"/>
+    <derivation value="constraint"/>
+    <differential>
+        <element id="Observation:PodiatryWoundRelatedObservationsPanel">
+            <path value="Observation"/>
+            <definition value="Observations that are linked to a wound"/>
+        </element>
+        <element id="Observation:PodiatryWoundRelatedObservationsPanel.code">
+            <path value="Observation.code"/>
+        </element>
+		<element id="Observation:PodiatryWoundRelatedObservationsPanel.code.coding">
+			<path value="Observation.code.coding"/>
+		</element>
+		<element id="Observation:PodiatryWoundRelatedObservationsPanel.code.coding.system">
+			<path value="Observation.code.coding.system"/>
+			<fixedUri value="http://loinc.org"/>
+		</element>
+		<element id="Observation:PodiatryWoundRelatedObservationsPanel.code.coding.code">
+			<path value="Observation.code.coding.code"/>
+			<fixedCode value="39135-9"/>
+		</element>
+		<element id="Observation:PodiatryWoundRelatedObservationsPanel.code.coding.display">
+			<path value="Observation.code.coding.display"/>
+			<fixedString value="Wound assessment panel"/>
+		</element>
+		<element id="Observation:PodiatryWoundRelatedObservationsPanel.value[x]">
+			<path value="Observation.value[x]"/>
+			<min value="0"/>
+			<max value="0"/>
+		</element>
+		<element id="Observation:PodiatryWoundRelatedObservationsPanel.related">
+			<path value="Observation.related"/>
+			<sliceName value="RelatedObservations"/>
+            <slicing>
+                <discriminator>
+                    <type value="profile"/>
+                    <path value="target.resolve()"/>
+                </discriminator>
+                <ordered value="false"/>
+                <rules value="open"/>
+            </slicing>
+            <min value="0"/>
+            <max value="*"/>
+		</element>
+		<element id="Observation:PodiatryWoundRelatedObservationsPanel.related:PodiatryWoundBed">
+			<path value="Observation.related"/>
+			<sliceName value="PodiatryWoundBed"/>
+			<short value="Wound Bed"/>
+			<min value="0"/>
+			<max value="*"/>
+		</element>
+		<element id="Observation:PodiatryWoundRelatedObservationsPanel.related.type:PodiatryWoundBed">
+			<path value="Observation.related.type"/>
+			<fixedCode value="has-member"/>
+		</element>
+		<element id="Observation:PodiatryWoundRelatedObservationsPanel.related.target:PodiatryWoundBed">
+			<path value="Observation.related.target"/>
+			<type>
+				<code value="Reference"/>
+				<targetProfile value="http://hl7.org/fhir/hspc/podiatrywound/StructureDefinition/PodiatryWoundBed"/>
+			</type>
+		</element>
+		<element id="Observation:PodiatryWoundRelatedObservationsPanel.related:PodiatryWoundEdge">
+			<path value="Observation.related"/>
+			<sliceName value="PodiatryWoundEdge"/>
+			<short value="Wound Edge"/>
+			<min value="0"/>
+			<max value="*"/>
+		</element>
+		<element id="Observation:PodiatryWoundRelatedObservationsPanel.related.type:PodiatryWoundEdge">
+			<path value="Observation.related.type"/>
+			<fixedCode value="has-member"/>
+		</element>
+		<element id="Observation:PodiatryWoundRelatedObservationsPanel.related.target:PodiatryWoundEdge">
+			<path value="Observation.related.target"/>
+			<type>
+				<code value="Reference"/>
+				<targetProfile value="http://hl7.org/fhir/hspc/podiatrywound/StructureDefinition/PodiatryWoundEdge"/>
+			</type>
+		</element>
+		<element id="Observation:PodiatryWoundRelatedObservationsPanel.related:woundSize">
+			<path value="Observation.related"/>
+			<sliceName value="woundSize"/>
+			<short value="Wound Size"/>
+			<min value="0"/>
+			<max value="1"/>
+		</element>
+		<element id="Observation:PodiatryWoundRelatedObservationsPanel.related:woundSize.type">
+			<path value="Observation.related.type"/>
+			<fixedCode value="has-member"/>
+		</element>
+		<element id="Observation:PodiatryWoundRelatedObservationsPanel.related.target:woundSize">
+			<path value="Observation.related.target"/>
+			<type>
+				<code value="Reference"/>
+				<targetProfile value="http://hl7.org/fhir/hspc/podiatrywound/StructureDefinition/WoundSize"/>
+			</type>
+		</element>
+    </differential>
+</StructureDefinition>

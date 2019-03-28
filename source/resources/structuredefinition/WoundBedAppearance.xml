@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+    <!--© 2018 IHC Health Services, Inc. All Rights Reserved. This document is machine generated.-->
+    <id value="WoundBedAppearance"/>
+    <url value="http://hl7.org/fhir/hspc/podiatrywound/StructureDefinition/WoundBedAppearance"/>
+    <name value="WoundBedAppearance"/>
+    <title value="Wound Bed Appearance"/>
+    <status value="draft"/>
+    <date value="2019-03-23"/>
+    <publisher value="Healthcare Services Platform Consortium"/>
+    <description value="Wound Bed Appearance describes how the wound bed looks."/>
+    <fhirVersion value="3.0.1"/>
+    <kind value="resource"/>
+    <abstract value="false"/>
+    <type value="Observation"/>
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Observation"/>
+    <derivation value="constraint"/>
+    <differential>
+        <element id="Observation:hspcwoundBedAppearance">
+            <path value="Observation"/>
+			<short value="Wound Bed Appearance"/>
+            <definition value="Wound Bed Appearance describes how the wound bed looks."/>
+        </element>
+        <element id="Observation:hspcwoundBedAppearance.code">
+            <path value="Observation.code"/>
+        </element>
+		<element id="Observation:hspcwoundBedAppearance.code.coding">
+			<path value="Observation.code.coding"/>
+		</element>
+		<element id="Observation:hspcwoundBedAppearance.code.coding.system">
+			<path value="Observation.code.coding.system"/>
+			<fixedUri value="http://loinc.org"/>
+		</element>
+		<element id="Observation:hspcwoundBedAppearance.code.coding.code">
+			<path value="Observation.code.coding.code"/>
+			<fixedCode value="72371-8"/>
+		</element>
+		<element id="Observation:hspcwoundBedAppearance.code.coding.display">
+			<path value="Observation.code.coding.display"/>
+			<fixedString value="Appearance of Wound base"/>
+		</element>
+        <element id="Observation:hspcwoundBedAppearance.valueCodeableConcept">
+            <path value="Observation.valueCodeableConcept"/>
+            <short value="Wound Bed Appearance code"/>
+            <type>
+                <code value="CodeableConcept"/>
+            </type>
+            <binding>
+                <strength value="preferred"/>
+                <valueSetReference>
+                    <reference value="http://hl7.org/fhir/hspc/podiatrywound/ValueSet/woundBedAppearanceVS"/>
+                </valueSetReference>
+            </binding>
+        </element>
+		<element id="Observation:hspcwoundBedAppearance.related:woundBedAppearanceArea">
+			<path value="Observation.related"/>
+			<sliceName value="woundBedAppearanceArea"/>
+			<short value="Wound Bed Appearance Area"/>
+			<min value="0"/>
+			<max value="1"/>
+		</element>
+		<element id="Observation:hspcwoundBedAppearance.related.type">
+			<path value="Observation.related.type"/>
+			<fixedCode value="qualified-by"/>
+		</element>
+		<element id="Observation:hspcwoundBedAppearance.related.target">
+			<path value="Observation.related.target"/>
+			<type>
+				<code value="Reference"/>
+				<targetProfile value="http://hl7.org/fhir/hspc/podiatrywound/StructureDefinition/WoundBedAppearanceArea"/>
+			</type>
+		</element>
+    </differential>
+</StructureDefinition>

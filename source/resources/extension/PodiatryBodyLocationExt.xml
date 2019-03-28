@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+	<id value="PodiatryBodyLocationExt"/>
+	<url value="http://hl7.org/fhir/hspc/podiatrywound/StructureDefinition/PodiatryBodyLocationExt"/>
+	<version value="2.0.0"/>
+	<name value="PodiatryBodyLocationExt"/>
+	<title value="Podiatry Body Location Extension"/>
+	<status value="draft"/>
+	<date value="2019-03-23"/>
+	<publisher value="CIMI"/>
+	<description value="The location on or in the foot or ankle where an observation was made or a procedure was performed."/>
+	<fhirVersion value="3.0.1"/>
+	<kind value="complex-type"/>
+	<abstract value="false"/>
+	<contextType value="resource"/>
+	<context value="Observation"/>
+	<context value="Condition"/>
+	<context value="BodySite"/>
+	<type value="Extension"/>
+	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>
+	<derivation value="constraint"/>
+	<differential>
+		<element id="Extension:PodiatryBodyLocationExt">
+			<path value="Extension"/>
+			<sliceName value="PodiatryBodyLocationExt"/>
+			<definition value="The location on or in the foot or ankle where an observation was made or a procedure was performed."/>
+			<min value="0"/>
+			<max value="1"/>
+			<isModifier value="false"/>
+		</element>
+		<element id="Extension:PodiatryBodyLocationExt.extension:BodySide">
+			<path value="Extension.extension"/>
+			<sliceName value="BodySide"/>
+			<short value="Body Side"/>
+			<type>
+				<code value="Extension"/>
+				<profile value="http://hl7.org/fhir/hspc/podiatrywound/StructureDefinition/BodySideExt"/>
+			</type>
+		</element>
+		<element id="Extension:PodiatryBodyLocationExt.extension:BodyLocationOrientationExt">
+			<path value="Extension.extension"/>
+			<sliceName value="BodyLocationOrientationExt"/>
+			<short value="Body Location Orientation"/>
+			<type>
+				<code value="Extension"/>
+				<profile value="http://hl7.org/fhir/hspc/podiatrywound/StructureDefinition/BodyLocationOrientationExt"/>
+			</type>
+		</element>
+		<element id="Extension:PodiatryBodyLocationExt.extension:PodiatryUnderlyingAnatomicalStructureExt">
+			<path value="Extension.extension"/>
+			<sliceName value="PodiatryUnderlyingAnatomicalStructureExt"/>
+			<short value="Podiatry Underlying Anatomical Structure"/>
+			<type>
+				<code value="Extension"/>
+				<profile value="http://hl7.org/fhir/hspc/podiatrywound/StructureDefinition/PodiatryUnderlyingAnatomicalStructureExt"/>
+			</type>
+		</element>
+		<element id="Extension:PodiatryBodyLocationExt.extension:BodyLandmarkOrientationExt">
+			<path value="Extension.extension"/>
+			<sliceName value="BodyLandmarkOrientationExt"/>
+			<short value="Body Landmark Orientation"/>
+			<type>
+				<code value="Extension"/>
+				<profile value="http://hl7.org/fhir/hspc/podiatrywound/StructureDefinition/PodiatryBodyLandmarkOrientationExt"/>
+			</type>
+		</element>
+		<element id="Extension:PodiatryBodyLocationExt.extension:BodyLocationQualifierExt">
+			<path value="Extension.extension"/>
+			<sliceName value="BodyLocationQualifierExt"/>
+			<short value="Body Location Qualifier"/>
+			<type>
+				<code value="Extension"/>
+				<profile value="http://hl7.org/fhir/hspc/podiatrywound/StructureDefinition/BodyLocationQualifierExt"/>
+			</type>
+		</element>
+		<element id="Extension:PodiatryBodyLocationExt.extension:BodyAnatomicLocationExt">
+			<path value="Extension.extension"/>
+			<sliceName value="BodyAnatomicLocationExt"/>
+			<short value="Body Anatomic Location"/>
+			<type>
+				<code value="Extension"/>
+				<profile value="http://hl7.org/fhir/hspc/podiatrywound/StructureDefinition/BodyAnatomicLocationExt"/>
+			</type>
+		</element>
+		<element id="Extension:PodiatryBodyLocationExt.url">
+			<path value="Extension.url"/>
+			<fixedUri value="http://hl7.org/fhir/hspc/podiatrywound/StructureDefinition/PodiatryBodyLocationExt"/>
+		</element>
+		<element id="Extension:PodiatryBodyLocationExt.value[x]">
+			<path value="Extension.value[x]"/>
+			<min value="0"/>
+			<max value="0"/>
+		</element>
+	</differential>
+</StructureDefinition>

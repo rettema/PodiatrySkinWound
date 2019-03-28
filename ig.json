@@ -1,0 +1,168 @@
+{
+  "mappings": "false",
+  "contact_system": "url",
+  "jurisdiction": "US",
+  "do-transforms": "false",
+  "allviews": "true",
+  "fixed-business-version": "0.1.0",
+  "extraTemplates": [
+    "mappings"
+  ],
+  "pub_url": "richard.ettema@aegis.net",
+  "sct-edition": "http://snomed.info/sct/731000124108",
+  "tool": "jekyll",
+  "no-inactive-codes": "false",
+  "paths": {
+    "temp": "generated_output/temp",
+    "output": "output",
+    "txCache": "generated_output/txCache",
+    "qa": "generated_output/qa",
+    "specification": "http://hl7.org/fhir/STU3",
+    "history" : "http://hl7.org/fhir/hspc/podiatrywound/history.cfml",
+    "resources": [
+      "source/resources",
+      "source/examples"
+    ],
+    "pages": [
+      "framework",
+      "source/pages"
+    ]
+  },
+  "working-dir": "C:/Users/richard.ettema/Documents/GitHub/PodiatrySkinWound/",
+  "defaults": {
+    "CapabilityStatement": {
+      "template-base": "base.html"
+    },
+    "StructureDefinition": {
+      "template-base": "sd.html",
+      "template-mappings": "sd-mappings.html",
+      "template-defns": "sd-definitions.html"
+    },
+    "OperationDefinition": {
+      "template-base": "base.html"
+    },
+    "SearchParameter": {
+      "template-base": "base.html"
+    },
+    "ValueSet": {
+      "template-base": "base.html"
+    },
+    "Any": {
+      "template-format": "format.html",
+      "swagger": "true",
+      "template-base": "base.html"
+    },
+    "CodeSystem": {
+      "template-base": "base.html"
+    },
+    "ConceptMap": {
+      "template-base": "base.html"
+    },
+    "StructureMap": {
+      "template-base": "ex.html",
+      "profiles": false,
+      "script": false,
+      "content": false
+    }
+  },
+  "license": "CC0-1.0",
+  "status": "draft",
+  "swagger": [
+    {
+      "mode": "single",
+      "capabilities": "server"
+    }
+  ],
+  "npm-name": "hl7.fhir.hspc.podiatrywound",
+  "publisher": "AEGIS.net, Inc.",
+  "canonicalBase": "http://hl7.org/fhir/hspc/podiatrywound",
+  "extensions": [
+    "extension-referenceAny",
+    "extension-measureSubscription"
+  ],
+  "gen-examples": "false",
+  "igtemplate-dir": "C:/Users/richard.ettema/Documents/GitHub/PodiatrySkinWound/",
+  "title": "Podiatry Skin Wound Assessment",
+  "broken-links": "warning",
+  "source": "implementationguide/ig.xml",
+  "spreadsheets": [
+  ],
+  "dependencyList": [
+    {
+      "name": "USCore",
+      "location": "http://hl7.org/fhir/us/core",
+      "version": "2.0.0"
+    }
+  ],
+  "topofpage": "true",
+  "logging": [
+    "progress"
+  ],
+  "version": "3.0.1",
+  "resources":{
+	"StructureDefinition/PodiatryWoundRelatedObservationsPanelExt":{"base":"StructureDefinition-PodiatryWoundRelatedObservationsPanelExt.html","source": "extension/PodiatryWoundRelatedObservationsPanelExt.xml"},
+	"StructureDefinition/ClockFacePositionExt":{"base":"StructureDefinition-ClockFacePositionExt.html","source": "extension/ClockFacePositionExt.xml"},
+	"StructureDefinition/MeasurementDeviceExt":{"base":"StructureDefinition-MeasurementDeviceExt.html","source": "extension/MeasurementDeviceExt.xml"},
+	"StructureDefinition/DistanceFromLandmarkMeasurementExt":{"base":"StructureDefinition-DistanceFromLandmarkMeasurementExt.html","source": "extension/DistanceFromLandmarkMeasurementExt.xml"},
+	"StructureDefinition/DistanceFromLandmarkExt":{"base":"StructureDefinition-DistanceFromLandmarkExt.html","source": "extension/DistanceFromLandmarkExt.xml"},
+	"StructureDefinition/SurfaceOrientationExt":{"base":"StructureDefinition-SurfaceOrientationExt.html","source": "extension/SurfaceOrientationExt.xml"},
+	"StructureDefinition/BodyLandmarkDescriptionExt":{"base":"StructureDefinition-BodyLandmarkDescriptionExt.html","source": "extension/BodyLandmarkDescriptionExt.xml"},
+	"StructureDefinition/PodiatryBodyLandmarkDescriptionExt":{"base":"StructureDefinition-PodiatryBodyLandmarkDescriptionExt.html","source": "extension/PodiatryBodyLandmarkDescriptionExt.xml"},
+	"StructureDefinition/PodiatryUnderlyingAnatomicalStructureExt":{"base":"StructureDefinition-PodiatryUnderlyingAnatomicalStructureExt.html","source": "extension/PodiatryUnderlyingAnatomicalStructureExt.xml"},
+	"StructureDefinition/UnderlyingAnatomicalStructureExt":{"base":"StructureDefinition-UnderlyingAnatomicalStructureExt.html","source": "extension/UnderlyingAnatomicalStructureExt.xml"},
+	"StructureDefinition/BodyLandmarkOrientationExt":{"base":"StructureDefinition-BodyLandmarkOrientationExt.html","source": "extension/BodyLandmarkOrientationExt.xml"},
+	"StructureDefinition/PodiatryBodyLandmarkOrientationExt":{"base":"StructureDefinition-PodiatryBodyLandmarkOrientationExt.html","source": "extension/PodiatryBodyLandmarkOrientationExt.xml"},
+	"StructureDefinition/BodyLocationOrientationExt":{"base":"StructureDefinition-BodyLocationOrientationExt.html","source": "extension/BodyLocationOrientationExt.xml"},
+	"StructureDefinition/BodyLocationQualifierExt":{"base":"StructureDefinition-BodyLocationQualifierExt.html","source": "extension/BodyLocationQualifierExt.xml"},
+	"StructureDefinition/BodyAnatomicLocationExt":{"base":"StructureDefinition-BodyAnatomicLocationExt.html","source": "extension/BodyAnatomicLocationExt.xml"},
+	"StructureDefinition/BodySideExt":{"base":"StructureDefinition-BodySideExt.html","source": "extension/BodySideExt.xml"},
+	"StructureDefinition/BodyLocationExt":{"base":"StructureDefinition-BodyLocationExt.html","source": "extension/BodyLocationExt.xml"},
+	"StructureDefinition/PodiatryBodyLocationExt":{"base":"StructureDefinition-PodiatryBodyLocationExt.html","source": "extension/PodiatryBodyLocationExt.xml"},
+
+	"StructureDefinition/WoundBedAppearanceArea":{"base":"StructureDefinition-WoundBedAppearanceArea.html"},
+	"StructureDefinition/WoundBedAppearance":{"base":"StructureDefinition-WoundBedAppearance.html"},
+	"StructureDefinition/WoundBedColorArea":{"base":"StructureDefinition-WoundBedColorArea.html"},
+	"StructureDefinition/WoundBedColor":{"base":"StructureDefinition-WoundBedColor.html"},
+	"StructureDefinition/WoundBed":{"base":"StructureDefinition-WoundBed.html"},
+	"StructureDefinition/PodiatryWoundBed":{"base":"StructureDefinition-PodiatryWoundBed.html"},
+	"StructureDefinition/WoundEdgeColor":{"base":"StructureDefinition-WoundEdgeColor.html"},
+	"StructureDefinition/WoundEdgeDescription":{"base":"StructureDefinition-WoundEdgeDescription.html"},
+	"StructureDefinition/WoundEdge":{"base":"StructureDefinition-WoundEdge.html"},
+	"StructureDefinition/PodiatryWoundEdge":{"base":"StructureDefinition-PodiatryWoundEdge.html"},
+
+	"StructureDefinition/WoundRelatedObservationsPanel":{"base":"StructureDefinition-WoundRelatedObservationsPanel.html"},
+	"StructureDefinition/PodiatryWoundRelatedObservationsPanel":{"base":"StructureDefinition-PodiatryWoundRelatedObservationsPanel.html"},
+
+	"StructureDefinition/PodiatryWoundAssert":{"base":"StructureDefinition-PodiatryWoundAssert.html"},
+	"StructureDefinition/WoundSize":{"base":"StructureDefinition-WoundSize.html"},
+
+	"ValueSet/bodyLandmarkDescriptionVS":{"base":"ValueSet-bodyLandmarkDescriptionVS.html"},
+	"ValueSet/bodyLocationOrientationVS":{"base":"ValueSet-bodyLocationOrientationVS.html"},
+	"ValueSet/bodyLocationQualifierVS":{"base":"ValueSet-bodyLocationQualifierVS.html"},
+	"ValueSet/bodySideVS":{"base":"ValueSet-bodySideVS.html"},
+	"ValueSet/clockFacePositionVS":{"base":"ValueSet-clockFacePositionVS.html"},
+	"ValueSet/podiatryBodyLandmarkDescriptionVS":{"base":"ValueSet-podiatryBodyLandmarkDescriptionVS.html"},
+	"ValueSet/podiatryWoundAnatomicLocationVS":{"base":"ValueSet-podiatryWoundAnatomicLocationVS.html"},
+	"ValueSet/qualitativeWoundDepthVS":{"base":"ValueSet-qualitativeWoundDepthVS.html"},
+	"ValueSet/SurfaceOrientationVS":{"base":"ValueSet-SurfaceOrientationVS.html"},
+	"ValueSet/UnderlyingAnatomicalStructureVS":{"base":"ValueSet-UnderlyingAnatomicalStructureVS.html"},
+	"ValueSet/woundAnatomicLocationVS":{"base":"ValueSet-woundAnatomicLocationVS.html"},
+	"ValueSet/woundBedAppearanceVS":{"base":"ValueSet-woundBedAppearanceVS.html"},
+	"ValueSet/woundBedColorVS":{"base":"ValueSet-woundBedColorVS.html"},
+	"ValueSet/woundEdgeColorVS":{"base":"ValueSet-woundEdgeColorVS.html"},
+	"ValueSet/woundEdgeDescriptionVS":{"base":"ValueSet-woundEdgeDescriptionVS.html"},
+	"ValueSet/woundMeasurementDeviceVS":{"base":"ValueSet-woundMeasurementDeviceVS.html"},
+	"ValueSet/woundTypeVS":{"base":"ValueSet-woundTypeVS.html"},
+
+    "CapabilityStatement/client":{"base": "CapabilityStatement-client.html","source": "capabilitystatement/capabilitystatement-client.xml"},
+    "CapabilityStatement/server":{"base": "CapabilityStatement-server.html","source": "capabilitystatement/capabilitystatement-server.xml"},
+
+	"Condition/podiatrywoundassert-example":{"base":"Condition-podiatrywoundassert-example.html"},
+	"Observation/podiatrywoundbed-example":{"base":"Observation-podiatrywoundbed-example.html"},
+	"Observation/podiatrywoundedge-example":{"base":"Observation-podiatrywoundedge-example.html"},
+	"Observation/podiatrywoundrelatedobservationspanel-example":{"base":"Observation-podiatrywoundrelatedobservationspanel-example.html"},
+	"Observation/woundsize-example":{"base":"Observation-woundsize-example.html"},
+	"Patient/patient-example":{"base":"Patient-patient-example.html"},
+	"Practitioner/practitioner-example":{"base":"Practitioner-practitioner-example.html"}
+  }
+}

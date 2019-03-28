@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+  <id value="ig"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource">
+    <valueString value="C:\Users\richard.ettema\Documents\GitHub\PodiatrySkinWound\source\resources"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource">
+    <valueString value="C:\Users\richard.ettema\Documents\GitHub\PodiatrySkinWound\source\examples"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages">
+    <valueString value="C:\Users\richard.ettema\Documents\GitHub\PodiatrySkinWound\framework"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages">
+    <valueString value="C:\Users\richard.ettema\Documents\GitHub\PodiatrySkinWound\source\pages"/>
+  </extension>
+  <url value="http://hl7.org/fhir/hspc/podiatrywound/ImplementationGuide/ig"/>
+  <version value="0.1.0"/>
+  <name value="Podiatry Skin Wound Assessment"/>
+  <status value="draft"/>
+  <date value="2019-03-23T00:00:00-04:00"/>
+  <publisher value="AEGIS.net, Inc."/>
+  <contact>
+    <telecom>
+      <system value="email"/>
+      <value value="Touchstone_Support@aegis.net"/>
+    </telecom>
+  </contact>
+  <description value="The Implementation Guide resource for the Podiatry Skin Wound Assessment"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="AEGIS.net, Inc."/>
+  <packageId value="hl7.fhir.hspc.podiatrywound"/>
+  <license value="CC0-1.0"/>
+  <fhirVersion value="3.0.1"/>
+  <dependsOn id="USCore">
+    <uri value="http://hl7.org/fhir/us/core"/>
+    <packageId value="hl7.fhir.us.core"/>
+    <version value="2.0.0"/>
+  </dependsOn>
+  <definition>
+    <grouping id="p1">
+      <name value="Podiatry Skin Wound Assessment"/>
+    </grouping>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/PodiatryWoundRelatedObservationsPanelExt"/>
+        <display value="Podiatry Wound Related Observations Panel Extension"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ClockFacePositionExt"/>
+        <display value="Clock Face Position Extension"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/MeasurementDeviceExt"/>
+        <display value="Measurement Device Extension"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/DistanceFromLandmarkMeasurementExt"/>
+        <display value="Distance From Landmark Measurement Extension"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/DistanceFromLandmarkExt"/>
+        <display value="Distance From Landmark Extension"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/SurfaceOrientationExt"/>
+        <display value="Surface Orientation Extension"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BodyLandmarkDescriptionExt"/>
+        <display value="Body Landmark Description Extension"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/PodiatryBodyLandmarkDescriptionExt"/>
+        <display value="Podiatry Body Landmark Description Extension"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/PodiatryUnderlyingAnatomicalStructureExt"/>
+        <display value="Podiatry Underlying Anatomical Structure Extension"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/UnderlyingAnatomicalStructureExt"/>
+        <display value="Underlying Anatomical Structure Extension"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BodyLandmarkOrientationExt"/>
+        <display value="Body Landmark Orientation Extension"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/PodiatryBodyLandmarkOrientationExt"/>
+        <display value="Podiatry Body Landmark Orientation Extension"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BodyLocationOrientationExt"/>
+        <display value="Body Location Orientation Extension"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BodyLocationQualifierExt"/>
+        <display value="Body Location Qualifier Extension"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BodyAnatomicLocationExt"/>
+        <display value="Body Anatomic Location Extension"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BodySideExt"/>
+        <display value="Body Side Extension"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/BodyLocationExt"/>
+        <display value="Body Location Extension"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/PodiatryBodyLocationExt"/>
+        <display value="Podiatry Body Location Extension"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/WoundBedAppearanceArea"/>
+        <display value="Wound Bed Appearance Area"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/WoundBedAppearance"/>
+        <display value="Wound Bed Appearance"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/WoundBedColorArea"/>
+        <display value="Wound Bed Color Area"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/WoundBedColor"/>
+        <display value="Wound Bed Color"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/WoundBed"/>
+        <display value="Wound Bed"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/PodiatryWoundBed"/>
+        <display value="Podiatry Wound Bed"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/WoundEdgeColor"/>
+        <display value="Wound Edge Color"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/WoundEdgeDescription"/>
+        <display value="Wound Edge Description"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/WoundEdge"/>
+        <display value="Wound Edge"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/PodiatryWoundEdge"/>
+        <display value="Podiatry Wound Edge"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/WoundRelatedObservationsPanel"/>
+        <display value="Wound Related Observations Panel"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/PodiatryWoundRelatedObservationsPanel"/>
+        <display value="Podiatry Wound Related Observations Panel"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/PodiatryWoundAssert"/>
+        <display value="Podiatry Wound Assertion"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/WoundSize"/>
+        <display value="Wound Size"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/bodyLandmarkDescriptionVS"/>
+        <display value="Body Landmark Description value set"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/bodyLocationOrientationVS"/>
+        <display value="Body Location Orientation value set"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/bodyLocationQualifierVS"/>
+        <display value="Body Location Qualifier value set"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/bodySideVS"/>
+        <display value="Body Side value set"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/clockFacePositionVS"/>
+        <display value="Clock Face Position value set"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/podiatryBodyLandmarkDescriptionVS"/>
+        <display value="Podiatry Body Landmark Description value set"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/podiatryWoundAnatomicLocationVS"/>
+        <display value="Podiatry Wound Anatomic Location value set"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/qualitativeWoundDepthVS"/>
+        <display value="Qualitative Wound Depth value set"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/SurfaceOrientationVS"/>
+        <display value="Surface Orientation value set"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/UnderlyingAnatomicalStructureVS"/>
+        <display value="Underlying Anatomical Structure value set"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/woundAnatomicLocationVS"/>
+        <display value="Wound Anatomic Location value set"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/woundBedAppearanceVS"/>
+        <display value="Wound Bed Appearance value set"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/woundBedColorVS"/>
+        <display value="Wound Bed Color value set"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/woundEdgeColorVS"/>
+        <display value="Wound Edge Color value set"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/woundEdgeDescriptionVS"/>
+        <display value="Wound Edge Description value set"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/woundMeasurementDeviceVS"/>
+        <display value="Wound Measurement Device value set"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/woundTypeVS"/>
+        <display value="Wound Type value set"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CapabilityStatement/client"/>
+        <display value="HSPC Skin Wound Assessment Client"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CapabilityStatement/server"/>
+        <display value="HSPC Skin Wound Assessment server"/>
+      </reference>
+      <exampleBoolean value="false"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Condition/podiatrywoundassert-example"/>
+        <display value="Condition Podiatry Wound Assert example"/>
+      </reference>
+      <exampleBoolean value="true"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Observation/podiatrywoundbed-example"/>
+        <display value="Observation Podiatry Wound Bed example"/>
+      </reference>
+      <exampleBoolean value="true"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Observation/podiatrywoundedge-example"/>
+        <display value="Observation Podiatry Wound Edge example"/>
+      </reference>
+      <exampleBoolean value="true"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Observation/podiatrywoundrelatedobservationspanel-example"/>
+        <display value="Observation Podiatry Wound Related Observations Panel example"/>
+      </reference>
+      <exampleBoolean value="true"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Observation/woundsize-example"/>
+        <display value="Observation Wound Size example"/>
+      </reference>
+      <exampleBoolean value="true"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/patient-example"/>
+        <display value="Patient example"/>
+      </reference>
+      <exampleBoolean value="true"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Practitioner/practitioner-example"/>
+        <display value="Practitioner example"/>
+      </reference>
+      <exampleBoolean value="true"/>
+      <groupingId value="p1"/>
+    </resource>
+    <parameter>
+      <code value="apply"/>
+      <value value="jurisdiction"/>
+    </parameter>
+    <parameter>
+      <code value="generate-json"/>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code value="generate-xml"/>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code value="generate-turtle"/>
+      <value value="true"/>
+    </parameter>
+  </definition>
+</ImplementationGuide>

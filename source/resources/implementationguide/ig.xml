@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+	<id value="ig" />
+	<url value="http://hl7.org/fhir/hspc/podiatrywound/ImplementationGuide/ig"/>
+	<version value="0.1.0"/>
+	<name value="Podiatry Skin Wound Assessment" />
+	<status value="draft" />
+	<date value="2019-03-23"/>
+	<publisher value="AEGIS.net, Inc."/>
+	<contact>
+		<telecom>
+			<system value="email"/>
+			<value value="Touchstone_Support@aegis.net"/>
+		</telecom>
+	</contact>
+	<description value="The Implementation Guide resource for the Podiatry Skin Wound Assessment"/>
+	<copyright value="AEGIS.net, Inc."/>
+	<package>
+		<name value="Podiatry Skin Wound Assessment" />
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="StructureDefinition/PodiatryWoundRelatedObservationsPanelExt"/>
+				<display value="Podiatry Wound Related Observations Panel Extension"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="StructureDefinition/ClockFacePositionExt"/>
+				<display value="Clock Face Position Extension"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="StructureDefinition/MeasurementDeviceExt"/>
+				<display value="Measurement Device Extension"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="StructureDefinition/DistanceFromLandmarkMeasurementExt"/>
+				<display value="Distance From Landmark Measurement Extension"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="StructureDefinition/DistanceFromLandmarkExt"/>
+				<display value="Distance From Landmark Extension"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="StructureDefinition/SurfaceOrientationExt"/>
+				<display value="Surface Orientation Extension"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="StructureDefinition/BodyLandmarkDescriptionExt"/>
+				<display value="Body Landmark Description Extension"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="StructureDefinition/PodiatryBodyLandmarkDescriptionExt"/>
+				<display value="Podiatry Body Landmark Description Extension"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="StructureDefinition/PodiatryUnderlyingAnatomicalStructureExt"/>
+				<display value="Podiatry Underlying Anatomical Structure Extension"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="StructureDefinition/UnderlyingAnatomicalStructureExt"/>
+				<display value="Underlying Anatomical Structure Extension"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="StructureDefinition/BodyLandmarkOrientationExt"/>
+				<display value="Body Landmark Orientation Extension"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="StructureDefinition/PodiatryBodyLandmarkOrientationExt"/>
+				<display value="Podiatry Body Landmark Orientation Extension"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="StructureDefinition/BodyLocationOrientationExt"/>
+				<display value="Body Location Orientation Extension"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="StructureDefinition/BodyLocationQualifierExt"/>
+				<display value="Body Location Qualifier Extension"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="StructureDefinition/BodyAnatomicLocationExt"/>
+				<display value="Body Anatomic Location Extension"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="StructureDefinition/BodySideExt"/>
+				<display value="Body Side Extension"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="StructureDefinition/BodyLocationExt"/>
+				<display value="Body Location Extension"/>
+			</sourceReference> 
+		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="StructureDefinition/PodiatryBodyLocationExt"/>
+				<display value="Podiatry Body Location Extension"/>
+			</sourceReference> 
+		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="StructureDefinition/WoundBedAppearanceArea"/>
+				<display value="Wound Bed Appearance Area"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="StructureDefinition/WoundBedAppearance"/>
+				<display value="Wound Bed Appearance"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="StructureDefinition/WoundBedColorArea"/>
+				<display value="Wound Bed Color Area"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="StructureDefinition/WoundBedColor"/>
+				<display value="Wound Bed Color"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="StructureDefinition/WoundBed"/>
+				<display value="Wound Bed"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="StructureDefinition/PodiatryWoundBed"/>
+				<display value="Podiatry Wound Bed"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="StructureDefinition/WoundEdgeColor"/>
+				<display value="Wound Edge Color"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="StructureDefinition/WoundEdgeDescription"/>
+				<display value="Wound Edge Description"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="StructureDefinition/WoundEdge"/>
+				<display value="Wound Edge"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="StructureDefinition/PodiatryWoundEdge"/>
+				<display value="Podiatry Wound Edge"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="StructureDefinition/WoundRelatedObservationsPanel"/>
+				<display value="Wound Related Observations Panel"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="StructureDefinition/PodiatryWoundRelatedObservationsPanel"/>
+				<display value="Podiatry Wound Related Observations Panel"/>
+			</sourceReference>
+		</resource>
+
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="StructureDefinition/PodiatryWoundAssert"/>
+				<display value="Podiatry Wound Assertion"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="StructureDefinition/WoundSize"/>
+				<display value="Wound Size"/>
+			</sourceReference>
+		</resource>
+
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="ValueSet/bodyLandmarkDescriptionVS"/>
+				<display value="Body Landmark Description value set"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="ValueSet/bodyLocationOrientationVS"/>
+				<display value="Body Location Orientation value set"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="ValueSet/bodyLocationQualifierVS"/>
+				<display value="Body Location Qualifier value set"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="ValueSet/bodySideVS"/>
+				<display value="Body Side value set"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="ValueSet/clockFacePositionVS"/>
+				<display value="Clock Face Position value set"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="ValueSet/podiatryBodyLandmarkDescriptionVS"/>
+				<display value="Podiatry Body Landmark Description value set"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="ValueSet/podiatryWoundAnatomicLocationVS"/>
+				<display value="Podiatry Wound Anatomic Location value set"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="ValueSet/qualitativeWoundDepthVS"/>
+				<display value="Qualitative Wound Depth value set"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="ValueSet/SurfaceOrientationVS"/>
+				<display value="Surface Orientation value set"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="ValueSet/UnderlyingAnatomicalStructureVS"/>
+				<display value="Underlying Anatomical Structure value set"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="ValueSet/woundAnatomicLocationVS"/>
+				<display value="Wound Anatomic Location value set"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="ValueSet/woundBedAppearanceVS"/>
+				<display value="Wound Bed Appearance value set"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="ValueSet/woundBedColorVS"/>
+				<display value="Wound Bed Color value set"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="ValueSet/woundEdgeColorVS"/>
+				<display value="Wound Edge Color value set"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="ValueSet/woundEdgeDescriptionVS"/>
+				<display value="Wound Edge Description value set"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="ValueSet/woundMeasurementDeviceVS"/>
+				<display value="Wound Measurement Device value set"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="ValueSet/woundTypeVS"/>
+				<display value="Wound Type value set"/>
+			</sourceReference>
+		</resource>
+
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="CapabilityStatement/client"/>
+				<display value="HSPC Skin Wound Assessment Client"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="CapabilityStatement/server"/>
+				<display value="HSPC Skin Wound Assessment server"/>
+			</sourceReference>
+		</resource>
+
+		<resource>
+			<example value="true"/>
+			<sourceReference>
+				<reference value="Condition/podiatrywoundassert-example"/>
+				<display value="Condition Podiatry Wound Assert example"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="true"/>
+			<sourceReference>
+				<reference value="Observation/podiatrywoundbed-example"/>
+				<display value="Observation Podiatry Wound Bed example"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="true"/>
+			<sourceReference>
+				<reference value="Observation/podiatrywoundedge-example"/>
+				<display value="Observation Podiatry Wound Edge example"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="true"/>
+			<sourceReference>
+				<reference value="Observation/podiatrywoundrelatedobservationspanel-example"/>
+				<display value="Observation Podiatry Wound Related Observations Panel example"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="true"/>
+			<sourceReference>
+				<reference value="Observation/woundsize-example"/>
+				<display value="Observation Wound Size example"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="true"/>
+			<sourceReference>
+				<reference value="Patient/patient-example"/>
+				<display value="Patient example"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="true"/>
+			<sourceReference>
+				<reference value="Practitioner/practitioner-example"/>
+				<display value="Practitioner example"/>
+			</sourceReference>
+		</resource>
+    </package>
+</ImplementationGuide>

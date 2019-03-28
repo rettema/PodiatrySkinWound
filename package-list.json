@@ -1,0 +1,23 @@
+{
+   "package-id": "hl7.fhir.hspc.podiatrywound",
+   "title": "Podiatry Skin Wound Assessment FHIR IG",
+   "canonical": "http://hl7.org/fhir/hspc/podiatrywound",
+   "introduction": "The scope of this project is to produce and ballot a Standard for Trail Use (STU) Fast Healthcare Interoperability Resources (FHIR) implementation guide (IG) for use in reporting of Podiatry Skin Wound Assessments to a WATT repository. The VRDR FHIR IG will be based upon FHIR STU 3",
+   "list": [
+      {
+        "version": "current",
+        "date" : "n/a",
+        "desc" : "Continuous Integration Build (latest in version control)",
+        "path": "http://build.fhir.org/ig/HL7/podiatrywound",
+        "status": "ci-build"
+      },
+      {
+        "version": "0.1.0",
+        "date": "2019-03-25",
+        "desc": "STU #1 1st Ballot",
+        "path": "http://hl7.org/fhir/hspc/podiatrywound",
+        "status": "ballot",
+        "sequence": "STU1"
+      }
+   ]
+}
