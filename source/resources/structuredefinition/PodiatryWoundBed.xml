@@ -6,7 +6,7 @@
     <name value="PodiatryWoundBed"/>
     <title value="Podiatry Wound Bed"/>
     <status value="draft"/>
-    <date value="2019-03-23"/>
+    <date value="2019-03-29"/>
     <publisher value="Healthcare Services Platform Consortium"/>
     <description value="Wound Bed describes the color and appearance of the base of a wound."/>
     <fhirVersion value="3.0.1"/>
@@ -45,208 +45,54 @@
 			<max value="0"/>
         </element>
 
-		<element id="Observation:PodiatryWoundBed.component">
-			<path value="Observation.component"/>
-			<slicing>
-				<discriminator>
-					<type value="value"/>
-					<path value="code.coding.code"/>
-				</discriminator>
-				<ordered value="false"/>
-				<rules value="open"/>
-			</slicing>
+		<element id="Observation:PodiatryWoundBed.related">
+			<path value="Observation.related"/>
+            <slicing>
+                <discriminator>
+                    <type value="profile"/>
+                    <path value="target.resolve()"/>
+                </discriminator>
+                <ordered value="false"/>
+                <rules value="open"/>
+            </slicing>
+            <min value="0"/>
+            <max value="*"/>
+		</element>
+		<element id="Observation:PodiatryWoundBed.related:PodiatryWoundBedAppearance">
+			<path value="Observation.related"/>
+			<sliceName value="PodiatryWoundBedAppearance"/>
+			<short value="Wound Bed Appearance"/>
 			<min value="0"/>
 			<max value="*"/>
 		</element>
-
-		<element id="Observation:PodiatryWoundBed.component:WoundBedAppearance">
-			<path value="Observation.component"/>
-			<sliceName value="WoundBedAppearance"/>
-			<short value="Wound Bed Appearance"/>
-            <definition value="Wound Bed Appearance describes how the wound bed looks."/>
-			<min value="0"/>
-			<max value="1"/>
+		<element id="Observation:PodiatryWoundBed.related.type:PodiatryWoundBedAppearance">
+			<path value="Observation.related.type"/>
+			<fixedCode value="has-member"/>
 		</element>
-		<element id="Observation:PodiatryWoundBed.component.code:WoundBedAppearance">
-			<path value="Observation.component.code"/>
-		</element>
-		<element id="Observation:PodiatryWoundBed.component.code.coding:WoundBedAppearance">
-			<path value="Observation.component.code.coding"/>
-		</element>
-		<element id="Observation:PodiatryWoundBed.component.code.coding.system:WoundBedAppearance">
-			<path value="Observation.component.code.coding.system"/>
-			<fixedUri value="http://loinc.org"/>
-		</element>
-		<element id="Observation:PodiatryWoundBed.component.code.coding.code:WoundBedAppearance">
-			<path value="Observation.component.code.coding.code"/>
-			<fixedCode value="72371-8"/>
-		</element>
-		<element id="Observation:PodiatryWoundBed.component.code.coding.display:WoundBedAppearance">
-			<path value="Observation.component.code.coding.display"/>
-			<fixedString value="Appearance of Wound base"/>
-		</element>
-		<element id="Observation:PodiatryWoundBed.component.valueCodeableConcept:WoundBedAppearance">
-			<path value="Observation.component.valueCodeableConcept"/>
-			<sliceName value="WoundBedAppearanceCode"/>
-			<short value="Wound Bed Appearance Code"/>
+		<element id="Observation:PodiatryWoundBed.related.target:PodiatryWoundBedAppearance">
+			<path value="Observation.related.target"/>
 			<type>
-				<code value="CodeableConcept"/>
-				<profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept"/>
-			</type>
-			<binding>
-				<strength value="preferred"/>
-				<valueSetReference>
-					<reference value="http://hl7.org/fhir/hspc/podiatrywound/ValueSet/woundBedAppearanceVS"/>
-				</valueSetReference>
-			</binding>
-		</element>
-
-		<element id="Observation:PodiatryWoundBed.component:WoundBedAppearanceArea">
-			<path value="Observation.component"/>
-			<sliceName value="WoundBedAppearanceArea"/>
-			<short value="Wound Bed Appearance Area"/>
-            <definition value="Wound Bed Appearance Area describes how much of a wound appears in a certain way."/>
-			<min value="0"/>
-			<max value="1"/>
-		</element>
-		<element id="Observation:PodiatryWoundBed.component.code:WoundBedAppearanceArea">
-			<path value="Observation.component.code"/>
-		</element>
-		<element id="Observation:PodiatryWoundBed.component.code.coding:WoundBedAppearanceArea">
-			<path value="Observation.component.code.coding"/>
-		</element>
-		<element id="Observation:PodiatryWoundBed.component.code.coding.system:WoundBedAppearanceArea">
-			<path value="Observation.component.code.coding.system"/>
-			<fixedUri value="http://loinc.org"/>
-		</element>
-		<element id="Observation:PodiatryWoundBed.component.code.coding.code:WoundBedAppearanceArea">
-			<path value="Observation.component.code.coding.code"/>
-			<fixedCode value="72370-0"/>
-		</element>
-		<element id="Observation:PodiatryWoundBed.component.code.coding.display:WoundBedAppearanceArea">
-			<path value="Observation.component.code.coding.display"/>
-			<fixedString value="Area of identified wound bed appearance/Area of wound bed of Wound base"/>
-		</element>
-		<element id="Observation:PodiatryWoundBed.component.valueQuantity:WoundBedAppearanceArea">
-			<path value="Observation.component.valueQuantity"/>
-			<type>
-				<code value="Quantity"/>
+				<code value="Reference"/>
+				<targetProfile value="http://hl7.org/fhir/hspc/podiatrywound/StructureDefinition/PodiatryWoundBedAppearance"/>
 			</type>
 		</element>
-		<element id="Observation:PodiatryWoundBed.component.valueQuantity.system:WoundBedAppearanceArea">
-			<path value="Observation.component.valueQuantity.system"/>
-			<type>
-				<code value="uri"/>
-				<profile value="http://hl7.org/fhir/StructureDefinition/uri"/>
-			</type>
-			<fixedUri value="http://unitsofmeasure.org"/>
-			<mustSupport value="false"/>
-			<isModifier value="false"/>
-		</element>
-		<element id="Observation:PodiatryWoundBed.component.valueQuantity.code:WoundBedAppearanceArea">
-			<path value="Observation.component.valueQuantity.code"/>
-			<type>
-				<code value="code"/>
-				<profile value="http://hl7.org/fhir/StructureDefinition/code"/>
-			</type>
-			<fixedCode value="%"/>
-			<mustSupport value="false"/>
-			<isModifier value="false"/>
-		</element>
-
-		<element id="Observation:PodiatryWoundBed.component:WoundBedColor">
-			<path value="Observation.component"/>
-			<sliceName value="WoundBedColor"/>
+		<element id="Observation:PodiatryWoundBed.related:PodiatryWoundBedColor">
+			<path value="Observation.related"/>
+			<sliceName value="PodiatryWoundBedColor"/>
 			<short value="Wound Bed Color"/>
-            <definition value="Wound Bed Color describes the color of the wound bed."/>
 			<min value="0"/>
-			<max value="1"/>
+			<max value="*"/>
 		</element>
-		<element id="Observation:PodiatryWoundBed.component.code:WoundBedColor">
-			<path value="Observation.component.code"/>
+		<element id="Observation:PodiatryWoundBed.related.type:PodiatryWoundBedColor">
+			<path value="Observation.related.type"/>
+			<fixedCode value="has-member"/>
 		</element>
-		<element id="Observation:PodiatryWoundBed.component.code.coding:WoundBedColor">
-			<path value="Observation.component.code.coding"/>
-		</element>
-		<element id="Observation:PodiatryWoundBed.component.code.coding.system:WoundBedColor">
-			<path value="Observation.component.code.coding.system"/>
-			<fixedUri value="http://loinc.org"/>
-		</element>
-		<element id="Observation:PodiatryWoundBed.component.code.coding.code:WoundBedColor">
-			<path value="Observation.component.code.coding.code"/>
-			<fixedCode value="39132-6"/>
-		</element>
-		<element id="Observation:PodiatryWoundBed.component.code.coding.display:WoundBedColor">
-			<path value="Observation.component.code.coding.display"/>
-			<fixedString value="Color of Wound base"/>
-		</element>
-		<element id="Observation:PodiatryWoundBed.component.valueCodeableConcept:WoundBedColor">
-			<path value="Observation.component.valueCodeableConcept"/>
-			<sliceName value="WoundBedColorCode"/>
-			<short value="Wound Bed Color Code"/>
+		<element id="Observation:PodiatryWoundBed.related.target:PodiatryWoundBedColor">
+			<path value="Observation.related.target"/>
 			<type>
-				<code value="CodeableConcept"/>
-				<profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept"/>
+				<code value="Reference"/>
+				<targetProfile value="http://hl7.org/fhir/hspc/podiatrywound/StructureDefinition/PodiatryWoundBedColor"/>
 			</type>
-			<binding>
-				<strength value="preferred"/>
-				<valueSetReference>
-					<reference value="http://hl7.org/fhir/hspc/podiatrywound/ValueSet/woundBedColorVS"/>
-				</valueSetReference>
-			</binding>
-		</element>
-
-		<element id="Observation:PodiatryWoundBed.component:WoundBedColorArea">
-			<path value="Observation.component"/>
-			<sliceName value="WoundBedColorArea"/>
-			<short value="Wound Bed Color Area"/>
-            <definition value="Wound Bed Color Area describes how much of the wound appears in a certain color."/>
-			<min value="0"/>
-			<max value="1"/>
-		</element>
-		<element id="Observation:PodiatryWoundBed.component.code:WoundBedColorArea">
-			<path value="Observation.component.code"/>
-		</element>
-		<element id="Observation:PodiatryWoundBed.component.code.coding:WoundBedColorArea">
-			<path value="Observation.component.code.coding"/>
-		</element>
-		<element id="Observation:PodiatryWoundBed.component.code.coding.system:WoundBedColorArea">
-			<path value="Observation.component.code.coding.system"/>
-			<fixedUri value="http://loinc.org"/>
-		</element>
-		<element id="Observation:PodiatryWoundBed.component.code.coding.code:WoundBedColorArea">
-			<path value="Observation.component.code.coding.code"/>
-			<fixedCode value="89255-4"/>
-		</element>
-		<element id="Observation:PodiatryWoundBed.component.code.coding.display:WoundBedColorArea">
-			<path value="Observation.component.code.coding.display"/>
-			<fixedString value="Wound bed area identified by color/Area of wound bed"/>
-		</element>
-		<element id="Observation:PodiatryWoundBed.component.valueQuantity:WoundBedColorArea">
-			<path value="Observation.component.valueQuantity"/>
-			<type>
-				<code value="Quantity"/>
-			</type>
-		</element>
-		<element id="Observation:PodiatryWoundBed.component.valueQuantity.system:WoundBedColorArea">
-			<path value="Observation.component.valueQuantity.system"/>
-			<type>
-				<code value="uri"/>
-				<profile value="http://hl7.org/fhir/StructureDefinition/uri"/>
-			</type>
-			<fixedUri value="http://unitsofmeasure.org"/>
-			<mustSupport value="false"/>
-			<isModifier value="false"/>
-		</element>
-		<element id="Observation:PodiatryWoundBed.component.valueQuantity.code:WoundBedColorArea">
-			<path value="Observation.component.valueQuantity.code"/>
-			<type>
-				<code value="code"/>
-				<profile value="http://hl7.org/fhir/StructureDefinition/code"/>
-			</type>
-			<fixedCode value="%"/>
-			<mustSupport value="false"/>
-			<isModifier value="false"/>
 		</element>
     </differential>
 </StructureDefinition>

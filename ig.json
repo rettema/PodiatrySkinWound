@@ -119,18 +119,12 @@
 	"StructureDefinition/BodyLocationExt":{"base":"StructureDefinition-BodyLocationExt.html","source": "extension/BodyLocationExt.xml"},
 	"StructureDefinition/PodiatryBodyLocationExt":{"base":"StructureDefinition-PodiatryBodyLocationExt.html","source": "extension/PodiatryBodyLocationExt.xml"},
 
-	"StructureDefinition/WoundBedAppearanceArea":{"base":"StructureDefinition-WoundBedAppearanceArea.html"},
-	"StructureDefinition/WoundBedAppearance":{"base":"StructureDefinition-WoundBedAppearance.html"},
-	"StructureDefinition/WoundBedColorArea":{"base":"StructureDefinition-WoundBedColorArea.html"},
-	"StructureDefinition/WoundBedColor":{"base":"StructureDefinition-WoundBedColor.html"},
-	"StructureDefinition/WoundBed":{"base":"StructureDefinition-WoundBed.html"},
+	"StructureDefinition/PodiatryWoundBedAppearance":{"base":"StructureDefinition-PodiatryWoundBedAppearance.html"},
+	"StructureDefinition/PodiatryWoundBedColor":{"base":"StructureDefinition-PodiatryWoundBedColor.html"},
 	"StructureDefinition/PodiatryWoundBed":{"base":"StructureDefinition-PodiatryWoundBed.html"},
-	"StructureDefinition/WoundEdgeColor":{"base":"StructureDefinition-WoundEdgeColor.html"},
-	"StructureDefinition/WoundEdgeDescription":{"base":"StructureDefinition-WoundEdgeDescription.html"},
-	"StructureDefinition/WoundEdge":{"base":"StructureDefinition-WoundEdge.html"},
+
 	"StructureDefinition/PodiatryWoundEdge":{"base":"StructureDefinition-PodiatryWoundEdge.html"},
 
-	"StructureDefinition/WoundRelatedObservationsPanel":{"base":"StructureDefinition-WoundRelatedObservationsPanel.html"},
 	"StructureDefinition/PodiatryWoundRelatedObservationsPanel":{"base":"StructureDefinition-PodiatryWoundRelatedObservationsPanel.html"},
 
 	"StructureDefinition/PodiatryWoundAssert":{"base":"StructureDefinition-PodiatryWoundAssert.html"},
@@ -158,6 +152,8 @@
     "CapabilityStatement/server":{"base": "CapabilityStatement-server.html","source": "capabilitystatement/capabilitystatement-server.xml"},
 
 	"Condition/podiatrywoundassert-example":{"base":"Condition-podiatrywoundassert-example.html"},
+	"Observation/podiatrywoundbedappearance-example":{"base":"Observation-podiatrywoundbedappearance-example.html"},
+	"Observation/podiatrywoundbedcolor-example":{"base":"Observation-podiatrywoundbedcolor-example.html"},
 	"Observation/podiatrywoundbed-example":{"base":"Observation-podiatrywoundbed-example.html"},
 	"Observation/podiatrywoundedge-example":{"base":"Observation-podiatrywoundedge-example.html"},
 	"Observation/podiatrywoundrelatedobservationspanel-example":{"base":"Observation-podiatrywoundrelatedobservationspanel-example.html"},

@@ -143,39 +143,19 @@
 				<display value="Podiatry Body Location Extension"/>
 			</sourceReference> 
 		</resource>
+
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="StructureDefinition/WoundBedAppearanceArea"/>
-				<display value="Wound Bed Appearance Area"/>
+				<reference value="StructureDefinition/PodiatryWoundBedAppearance"/>
+				<display value="Podiatry Wound Bed Appearance"/>
 			</sourceReference>
 		</resource>
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="StructureDefinition/WoundBedAppearance"/>
-				<display value="Wound Bed Appearance"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
-				<reference value="StructureDefinition/WoundBedColorArea"/>
-				<display value="Wound Bed Color Area"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
-				<reference value="StructureDefinition/WoundBedColor"/>
-				<display value="Wound Bed Color"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
-				<reference value="StructureDefinition/WoundBed"/>
-				<display value="Wound Bed"/>
+				<reference value="StructureDefinition/PodiatryWoundBedColor"/>
+				<display value="Podiatry Wound Bed Color"/>
 			</sourceReference>
 		</resource>
 		<resource>
@@ -188,36 +168,8 @@
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="StructureDefinition/WoundEdgeColor"/>
-				<display value="Wound Edge Color"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
-				<reference value="StructureDefinition/WoundEdgeDescription"/>
-				<display value="Wound Edge Description"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
-				<reference value="StructureDefinition/WoundEdge"/>
-				<display value="Wound Edge"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
 				<reference value="StructureDefinition/PodiatryWoundEdge"/>
 				<display value="Podiatry Wound Edge"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
-				<reference value="StructureDefinition/WoundRelatedObservationsPanel"/>
-				<display value="Wound Related Observations Panel"/>
 			</sourceReference>
 		</resource>
 		<resource>
@@ -383,6 +335,20 @@
 			<sourceReference>
 				<reference value="Condition/podiatrywoundassert-example"/>
 				<display value="Condition Podiatry Wound Assert example"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="true"/>
+			<sourceReference>
+				<reference value="Observation/podiatrywoundbedappearance-example"/>
+				<display value="Observation Podiatry Wound Bed Appearance example"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="true"/>
+			<sourceReference>
+				<reference value="Observation/podiatrywoundbedcolor-example"/>
+				<display value="Observation Podiatry Wound Bed Color example"/>
 			</sourceReference>
 		</resource>
 		<resource>

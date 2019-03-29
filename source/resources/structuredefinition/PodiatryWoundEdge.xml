@@ -6,7 +6,7 @@
     <name value="PodiatryWoundEdge"/>
     <title value="Podiatry Wound Edge"/>
     <status value="draft"/>
-    <date value="2019-03-23"/>
+    <date value="2019-03-29"/>
     <publisher value="Healthcare Services Platform Consortium"/>
     <description value="Wound Edge describes the appearance and color of the wound boundaries."/>
     <fhirVersion value="3.0.1"/>
@@ -88,7 +88,6 @@
 		</element>
 		<element id="Observation:PodiatryWoundEdge.component.valueCodeableConcept:WoundEdgeColor">
 			<path value="Observation.component.valueCodeableConcept"/>
-			<sliceName value="WoundEdgeColorCode"/>
 			<short value="Wound Edge Color Code"/>
 			<type>
 				<code value="CodeableConcept"/>
@@ -129,7 +128,6 @@
 		</element>
 		<element id="Observation:PodiatryWoundEdge.component.valueCodeableConcept:WoundEdgeDescription">
 			<path value="Observation.component.valueCodeableConcept"/>
-			<sliceName value="WoundEdgeDescriptionCode"/>
 			<short value="Wound Edge Description Code"/>
 			<type>
 				<code value="CodeableConcept"/>

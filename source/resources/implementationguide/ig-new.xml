@@ -192,40 +192,16 @@
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/WoundBedAppearanceArea"/>
-        <display value="Wound Bed Appearance Area"/>
+        <reference value="StructureDefinition/PodiatryWoundBedAppearance"/>
+        <display value="Podiatry Wound Bed Appearance"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/WoundBedAppearance"/>
-        <display value="Wound Bed Appearance"/>
-      </reference>
-      <exampleBoolean value="false"/>
-      <groupingId value="p1"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/WoundBedColorArea"/>
-        <display value="Wound Bed Color Area"/>
-      </reference>
-      <exampleBoolean value="false"/>
-      <groupingId value="p1"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/WoundBedColor"/>
-        <display value="Wound Bed Color"/>
-      </reference>
-      <exampleBoolean value="false"/>
-      <groupingId value="p1"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/WoundBed"/>
-        <display value="Wound Bed"/>
+        <reference value="StructureDefinition/PodiatryWoundBedColor"/>
+        <display value="Podiatry Wound Bed Color"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
@@ -240,40 +216,8 @@
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/WoundEdgeColor"/>
-        <display value="Wound Edge Color"/>
-      </reference>
-      <exampleBoolean value="false"/>
-      <groupingId value="p1"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/WoundEdgeDescription"/>
-        <display value="Wound Edge Description"/>
-      </reference>
-      <exampleBoolean value="false"/>
-      <groupingId value="p1"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/WoundEdge"/>
-        <display value="Wound Edge"/>
-      </reference>
-      <exampleBoolean value="false"/>
-      <groupingId value="p1"/>
-    </resource>
-    <resource>
-      <reference>
         <reference value="StructureDefinition/PodiatryWoundEdge"/>
         <display value="Podiatry Wound Edge"/>
-      </reference>
-      <exampleBoolean value="false"/>
-      <groupingId value="p1"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/WoundRelatedObservationsPanel"/>
-        <display value="Wound Related Observations Panel"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
@@ -458,6 +402,22 @@
       <reference>
         <reference value="Condition/podiatrywoundassert-example"/>
         <display value="Condition Podiatry Wound Assert example"/>
+      </reference>
+      <exampleBoolean value="true"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Observation/podiatrywoundbedappearance-example"/>
+        <display value="Observation Podiatry Wound Bed Appearance example"/>
+      </reference>
+      <exampleBoolean value="true"/>
+      <groupingId value="p1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Observation/podiatrywoundbedcolor-example"/>
+        <display value="Observation Podiatry Wound Bed Color example"/>
       </reference>
       <exampleBoolean value="true"/>
       <groupingId value="p1"/>

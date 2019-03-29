@@ -6,7 +6,7 @@
 	<name value="PodiatryWoundAssert"/>
 	<title value="Podiatry Wound Assert"/>
 	<status value="draft"/>
-	<date value="2019-03-23"/>
+	<date value="2019-03-27"/>
 	<publisher value="HSPC"/>
 	<description value="Wound Assert is an assertion model used when the condition exists. Wound is a kind of skin alteration including breaks in skin or injury under or to skin wounds (e.g., pressure injury by stage)"/>
 	<fhirVersion value="3.0.1"/>
@@ -23,8 +23,8 @@
 		</element>
 		<element id="Condition:PodiatryWoundAssert.extension:PodiatryWoundRelatedObservationsPanelExt">
 			<path value="Condition.extension"/>
-			<sliceName value="PodiatryBodyLocationExt"/>
-			<short value="Podiatry Body Location"/>
+			<sliceName value="PodiatryWoundRelatedObservationsPanelExt"/>
+			<short value="Podiatry Wound Related Observations Panel"/>
 			<min value="0"/>
 			<max value="1"/>
 			<type>

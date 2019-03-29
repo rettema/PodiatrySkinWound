@@ -197,40 +197,16 @@
     },
     {
       "reference" : {
-        "reference" : "StructureDefinition/WoundBedAppearanceArea",
-        "display" : "Wound Bed Appearance Area"
+        "reference" : "StructureDefinition/PodiatryWoundBedAppearance",
+        "display" : "Podiatry Wound Bed Appearance"
       },
       "exampleBoolean" : false,
       "groupingId" : "p1"
     },
     {
       "reference" : {
-        "reference" : "StructureDefinition/WoundBedAppearance",
-        "display" : "Wound Bed Appearance"
-      },
-      "exampleBoolean" : false,
-      "groupingId" : "p1"
-    },
-    {
-      "reference" : {
-        "reference" : "StructureDefinition/WoundBedColorArea",
-        "display" : "Wound Bed Color Area"
-      },
-      "exampleBoolean" : false,
-      "groupingId" : "p1"
-    },
-    {
-      "reference" : {
-        "reference" : "StructureDefinition/WoundBedColor",
-        "display" : "Wound Bed Color"
-      },
-      "exampleBoolean" : false,
-      "groupingId" : "p1"
-    },
-    {
-      "reference" : {
-        "reference" : "StructureDefinition/WoundBed",
-        "display" : "Wound Bed"
+        "reference" : "StructureDefinition/PodiatryWoundBedColor",
+        "display" : "Podiatry Wound Bed Color"
       },
       "exampleBoolean" : false,
       "groupingId" : "p1"
@@ -245,40 +221,8 @@
     },
     {
       "reference" : {
-        "reference" : "StructureDefinition/WoundEdgeColor",
-        "display" : "Wound Edge Color"
-      },
-      "exampleBoolean" : false,
-      "groupingId" : "p1"
-    },
-    {
-      "reference" : {
-        "reference" : "StructureDefinition/WoundEdgeDescription",
-        "display" : "Wound Edge Description"
-      },
-      "exampleBoolean" : false,
-      "groupingId" : "p1"
-    },
-    {
-      "reference" : {
-        "reference" : "StructureDefinition/WoundEdge",
-        "display" : "Wound Edge"
-      },
-      "exampleBoolean" : false,
-      "groupingId" : "p1"
-    },
-    {
-      "reference" : {
         "reference" : "StructureDefinition/PodiatryWoundEdge",
         "display" : "Podiatry Wound Edge"
-      },
-      "exampleBoolean" : false,
-      "groupingId" : "p1"
-    },
-    {
-      "reference" : {
-        "reference" : "StructureDefinition/WoundRelatedObservationsPanel",
-        "display" : "Wound Related Observations Panel"
       },
       "exampleBoolean" : false,
       "groupingId" : "p1"
@@ -463,6 +407,22 @@
       "reference" : {
         "reference" : "Condition/podiatrywoundassert-example",
         "display" : "Condition Podiatry Wound Assert example"
+      },
+      "exampleBoolean" : true,
+      "groupingId" : "p1"
+    },
+    {
+      "reference" : {
+        "reference" : "Observation/podiatrywoundbedappearance-example",
+        "display" : "Observation Podiatry Wound Bed Appearance example"
+      },
+      "exampleBoolean" : true,
+      "groupingId" : "p1"
+    },
+    {
+      "reference" : {
+        "reference" : "Observation/podiatrywoundbedcolor-example",
+        "display" : "Observation Podiatry Wound Bed Color example"
       },
       "exampleBoolean" : true,
       "groupingId" : "p1"

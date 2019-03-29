@@ -6861,3 +6861,103 @@ e: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://snomed.info/sct",
+    "code" : "371250004",
+    "display" : "Purple color"
+  }]
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "449746002",
+        "display" : "Wound slough"
+      },
+      {
+        "code" : "225541009",
+        "display" : "Granulation of tissue"
+      },
+      {
+        "code" : "449745003",
+        "display" : "Fibrinous wound bed"
+      },
+      {
+        "code" : "449743005",
+        "display" : "Wound epithelialization"
+      },
+      {
+        "code" : "421306004",
+        "display" : "Necrotic eschar"
+      },
+      {
+        "code" : "609410002",
+        "display" : "Necrosis of anatomical site"
+      },
+      {
+        "code" : "409590008:58158008",
+        "display" : "Stable Eschar"
+      }]
+    }]
+  }
+}}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code provided (http://snomed.info/sct#371250004) is not  valid in the value set Wound Bed Appearance Value Set"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://snomed.info/sct",
+    "code" : "225541009",
+    "display" : "Granulation of tissue"
+  }]
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "371244009",
+        "display" : "Yellow color"
+      },
+      {
+        "code" : "371252007",
+        "display" : "Black color"
+      },
+      {
+        "code" : "371254008",
+        "display" : "Brown color"
+      },
+      {
+        "code" : "371243003",
+        "display" : "Pink color"
+      },
+      {
+        "code" : "371240000",
+        "display" : "Red color"
+      },
+      {
+        "code" : "371251000",
+        "display" : "White color"
+      },
+      {
+        "code" : "371253002",
+        "display" : "Gray color"
+      },
+      {
+        "code" : "371250004",
+        "display" : "Purple color"
+      }]
+    }]
+  }
+}}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code provided (http://snomed.info/sct#225541009) is not  valid in the value set Wound Bed Color Value Set"
+}
+-------------------------------------------------------------------------------------

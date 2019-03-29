@@ -31,66 +31,18 @@
 	<performer>
 		<reference value="Practitioner/practitioner-example"/>
 	</performer>
-	<component>
-		<code>
-			<coding>
-				<system value="http://loinc.org"/>
-				<code value="72371-8"/>
-				<display value="Appearance of Wound base"/>
-			</coding>
-		</code>
-		<valueCodeableConcept>
-			<coding>
-				<system value="http://snomed.info/sct"/>
-				<code value="225541009"/>
-				<display value="Granulation of tissue"/>
-			</coding>
-		</valueCodeableConcept>
-	</component>
-	<component>
-		<code>
-			<coding>
-				<system value="http://loinc.org"/>
-				<code value="72370-0"/>
-				<display value="Area of identified wound bed appearance/Area of wound bed of Wound base"/>
-			</coding>
-		</code>
-		<valueQuantity>
-			<value value="4"/>
-			<unit value="cm2"/>
-			<system value="http://unitsofmeasure.org"/>
-			<code value="%"/>
-		</valueQuantity>
-	</component>
-	<component>
-		<code>
-			<coding>
-				<system value="http://loinc.org"/>
-				<code value="39132-6"/>
-				<display value="Color of Wound base"/>
-			</coding>
-		</code>
-		<valueCodeableConcept>
-			<coding>
-				<system value="http://snomed.info/sct"/>
-				<code value="371250004"/>
-				<display value="Purple color"/>
-			</coding>
-		</valueCodeableConcept>
-	</component>
-	<component>
-		<code>
-			<coding>
-				<system value="http://loinc.org"/>
-				<code value="89255-4"/>
-				<display value="Wound bed area identified by color/Area of wound bed"/>
-			</coding>
-		</code>
-		<valueQuantity>
-			<value value="4"/>
-			<unit value="cm2"/>
-			<system value="http://unitsofmeasure.org"/>
-			<code value="%"/>
-		</valueQuantity>
-	</component>
+	<related>
+		<type value="has-member"/>
+		<target>
+			<reference value="Observation/podiatrywoundbedappearance-example"/>
+			<display value="Podiatry Wound Bed Appearance Example"/>
+		</target>
+	</related>
+	<related>
+		<type value="has-member"/>
+		<target>
+			<reference value="Observation/podiatrywoundbedcolor-example"/>
+			<display value="Podiatry Wound Bed Color Example"/>
+		</target>
+	</related>
 </Observation>
