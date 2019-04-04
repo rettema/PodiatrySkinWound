@@ -6,7 +6,7 @@
 	<name value="SurfaceOrientationExt"/>
 	<title value="Surface Orientation Extension"/>
 	<status value="draft"/>
-	<date value="2019-03-23"/>
+	<date value="2019-04-04"/>
 	<publisher value="CIMI"/>
 	<description value="The surface area a body location is in relation to a landmark."/>
 	<fhirVersion value="3.0.1"/>
@@ -41,7 +41,7 @@
 			<binding>
 				<strength value="preferred"/>
 				<valueSetReference>
-					<reference value="http://hl7.org/fhir/hspc/podiatrywound/ValueSet/SurfaceOrientationVS"/>
+					<reference value="http://hl7.org/fhir/hspc/podiatrywound/ValueSet/surfaceOrientationVS"/>
 				</valueSetReference>
 			</binding>
 		</element>

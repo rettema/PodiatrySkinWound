@@ -4,9 +4,9 @@
 	<url value="http://hl7.org/fhir/hspc/podiatrywound/StructureDefinition/PodiatryWoundRelatedObservationsPanelExt"/>
 	<version value="2.0.0"/>
 	<name value="PodiatryWoundRelatedObservationsPanelExt"/>
-	<title value="Podiatry Related Observations Panel Extension"/>
+	<title value="Podiatry Wound Related Observations Panel Extension"/>
 	<status value="draft"/>
-	<date value="2019-03-26"/>
+	<date value="2019-04-04"/>
 	<publisher value="CIMI"/>
 	<description value="The Podiatry Wound Related Observations Panel reference."/>
 	<fhirVersion value="3.0.1"/>

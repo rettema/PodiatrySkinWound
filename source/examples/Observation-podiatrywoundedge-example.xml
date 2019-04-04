@@ -2,7 +2,7 @@
 <Observation xmlns="http://hl7.org/fhir">
 	<id value="podiatrywoundedge-example"/>
 	<meta>
-		<profile value="http://hl7.org/fhir/hspc/podiatrywound/StructureDefinition/PodiatryWoundEdge"/>
+		<profile value="http://hl7.org/fhir/hspc/podiatrywound/StructureDefinition/WoundEdge"/>
 	</meta>
 	<identifier>
 		<system value="https://acme.org/identifiers"/>
@@ -31,36 +31,18 @@
 	<performer>
 		<reference value="Practitioner/practitioner-example"/>
 	</performer>
-	<component>
-		<code>
-			<coding>
-				<system value="http://loinc.org"/>
-				<code value="39133-4"/>
-				<display value="Color of Wound edge"/>
-			</coding>
-		</code>
-		<valueCodeableConcept>
-			<coding>
-				<system value="http://snomed.info/sct"/>
-				<code value="371240000"/>
-				<display value="Red color"/>
-			</coding>
-		</valueCodeableConcept>
-	</component>
-	<component>
-		<code>
-			<coding>
-				<system value="http://loinc.org"/>
-				<code value="72304-9"/>
-				<display value="Edge of wound description"/>
-			</coding>
-		</code>
-		<valueCodeableConcept>
-			<coding>
-				<system value="http://snomed.info/sct"/>
-				<code value="449760000"/>
-				<display value="Scab of wound edge"/>
-			</coding>
-		</valueCodeableConcept>
-	</component>
+	<related>
+		<type value="has-member"/>
+		<target>
+			<reference value="Observation/podiatrywoundedgecolor-example"/>
+			<display value="Wound Edge Color Example"/>
+		</target>
+	</related>
+	<related>
+		<type value="has-member"/>
+		<target>
+			<reference value="Observation/podiatrywoundedgedescription-example"/>
+			<display value="Wound Edge Description Example"/>
+		</target>
+	</related>
 </Observation>

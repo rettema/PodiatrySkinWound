@@ -6,7 +6,7 @@
 	<name value="PodiatryUnderlyingAnatomicalStructureExt"/>
 	<title value="Podiatry Underlying Anatomical Structure"/>
 	<status value="draft"/>
-	<date value="2019-03-23"/>
+	<date value="2019-04-04"/>
 	<publisher value="CIMI"/>
 	<description value="Body structures that are beneath an observation location."/>
 	<fhirVersion value="3.0.1"/>
@@ -41,7 +41,7 @@
 			<binding>
 				<strength value="example"/>
 				<valueSetReference>
-					<reference value="http://hl7.org/fhir/hspc/podiatrywound/ValueSet/UnderlyingAnatomicalStructureVS"/>
+					<reference value="http://hl7.org/fhir/hspc/podiatrywound/ValueSet/underlyingAnatomicalStructureVS"/>
 				</valueSetReference>
 			</binding>
 		</element>

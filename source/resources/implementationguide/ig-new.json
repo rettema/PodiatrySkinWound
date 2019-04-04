@@ -101,14 +101,6 @@
     },
     {
       "reference" : {
-        "reference" : "StructureDefinition/BodyLandmarkDescriptionExt",
-        "display" : "Body Landmark Description Extension"
-      },
-      "exampleBoolean" : false,
-      "groupingId" : "p1"
-    },
-    {
-      "reference" : {
         "reference" : "StructureDefinition/PodiatryBodyLandmarkDescriptionExt",
         "display" : "Podiatry Body Landmark Description Extension"
       },
@@ -117,32 +109,16 @@
     },
     {
       "reference" : {
-        "reference" : "StructureDefinition/PodiatryUnderlyingAnatomicalStructureExt",
-        "display" : "Podiatry Underlying Anatomical Structure Extension"
-      },
-      "exampleBoolean" : false,
-      "groupingId" : "p1"
-    },
-    {
-      "reference" : {
-        "reference" : "StructureDefinition/UnderlyingAnatomicalStructureExt",
-        "display" : "Underlying Anatomical Structure Extension"
-      },
-      "exampleBoolean" : false,
-      "groupingId" : "p1"
-    },
-    {
-      "reference" : {
-        "reference" : "StructureDefinition/BodyLandmarkOrientationExt",
-        "display" : "Body Landmark Orientation Extension"
-      },
-      "exampleBoolean" : false,
-      "groupingId" : "p1"
-    },
-    {
-      "reference" : {
         "reference" : "StructureDefinition/PodiatryBodyLandmarkOrientationExt",
         "display" : "Podiatry Body Landmark Orientation Extension"
+      },
+      "exampleBoolean" : false,
+      "groupingId" : "p1"
+    },
+    {
+      "reference" : {
+        "reference" : "StructureDefinition/PodiatryUnderlyingAnatomicalStructureExt",
+        "display" : "Podiatry Underlying Anatomical Structure Extension"
       },
       "exampleBoolean" : false,
       "groupingId" : "p1"
@@ -165,8 +141,8 @@
     },
     {
       "reference" : {
-        "reference" : "StructureDefinition/BodyAnatomicLocationExt",
-        "display" : "Body Anatomic Location Extension"
+        "reference" : "StructureDefinition/AnatomicLocationExt",
+        "display" : "Anatomic Location Extension"
       },
       "exampleBoolean" : false,
       "groupingId" : "p1"
@@ -181,14 +157,6 @@
     },
     {
       "reference" : {
-        "reference" : "StructureDefinition/BodyLocationExt",
-        "display" : "Body Location Extension"
-      },
-      "exampleBoolean" : false,
-      "groupingId" : "p1"
-    },
-    {
-      "reference" : {
         "reference" : "StructureDefinition/PodiatryBodyLocationExt",
         "display" : "Podiatry Body Location Extension"
       },
@@ -197,32 +165,48 @@
     },
     {
       "reference" : {
-        "reference" : "StructureDefinition/PodiatryWoundBedAppearance",
-        "display" : "Podiatry Wound Bed Appearance"
+        "reference" : "StructureDefinition/WoundBedAppearance",
+        "display" : "Wound Bed Appearance"
       },
       "exampleBoolean" : false,
       "groupingId" : "p1"
     },
     {
       "reference" : {
-        "reference" : "StructureDefinition/PodiatryWoundBedColor",
-        "display" : "Podiatry Wound Bed Color"
+        "reference" : "StructureDefinition/WoundBedColor",
+        "display" : "Wound Bed Color"
       },
       "exampleBoolean" : false,
       "groupingId" : "p1"
     },
     {
       "reference" : {
-        "reference" : "StructureDefinition/PodiatryWoundBed",
-        "display" : "Podiatry Wound Bed"
+        "reference" : "StructureDefinition/WoundBed",
+        "display" : "Wound Bed"
       },
       "exampleBoolean" : false,
       "groupingId" : "p1"
     },
     {
       "reference" : {
-        "reference" : "StructureDefinition/PodiatryWoundEdge",
-        "display" : "Podiatry Wound Edge"
+        "reference" : "StructureDefinition/WoundEdgeColor",
+        "display" : "Wound Edge Color"
+      },
+      "exampleBoolean" : false,
+      "groupingId" : "p1"
+    },
+    {
+      "reference" : {
+        "reference" : "StructureDefinition/WoundEdgeDescription",
+        "display" : "Wound EdgeDescription"
+      },
+      "exampleBoolean" : false,
+      "groupingId" : "p1"
+    },
+    {
+      "reference" : {
+        "reference" : "StructureDefinition/WoundEdge",
+        "display" : "Wound Edge"
       },
       "exampleBoolean" : false,
       "groupingId" : "p1"
@@ -317,7 +301,7 @@
     },
     {
       "reference" : {
-        "reference" : "ValueSet/SurfaceOrientationVS",
+        "reference" : "ValueSet/surfaceOrientationVS",
         "display" : "Surface Orientation value set"
       },
       "exampleBoolean" : false,
@@ -325,7 +309,7 @@
     },
     {
       "reference" : {
-        "reference" : "ValueSet/UnderlyingAnatomicalStructureVS",
+        "reference" : "ValueSet/underlyingAnatomicalStructureVS",
         "display" : "Underlying Anatomical Structure value set"
       },
       "exampleBoolean" : false,
@@ -431,6 +415,22 @@
       "reference" : {
         "reference" : "Observation/podiatrywoundbed-example",
         "display" : "Observation Podiatry Wound Bed example"
+      },
+      "exampleBoolean" : true,
+      "groupingId" : "p1"
+    },
+    {
+      "reference" : {
+        "reference" : "Observation/podiatrywoundedgecolor-example",
+        "display" : "Observation Podiatry Wound Edge Color example"
+      },
+      "exampleBoolean" : true,
+      "groupingId" : "p1"
+    },
+    {
+      "reference" : {
+        "reference" : "Observation/podiatrywoundedgedescription-example",
+        "display" : "Observation Podiatry Wound Edge Description example"
       },
       "exampleBoolean" : true,
       "groupingId" : "p1"

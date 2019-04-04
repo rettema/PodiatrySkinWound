@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-	<id value="BodyLandmarkDescriptionExt"/>
-	<url value="http://hl7.org/fhir/hspc/podiatrywound/StructureDefinition/BodyLandmarkDescriptionExt"/>
+	<id value="AnatomicLocationExt"/>
+	<url value="http://hl7.org/fhir/hspc/podiatrywound/StructureDefinition/AnatomicLocationExt"/>
 	<version value="2.0.0"/>
-	<name value="BodyLandmarkDescriptionExt"/>
-	<title value="Body Landmark Description Extension"/>
+	<name value="AnatomicLocationExt"/>
+	<title value="Anatomic Location Extension"/>
 	<status value="draft"/>
-	<date value="2019-03-23"/>
+	<date value="2019-04-04"/>
 	<publisher value="CIMI"/>
-	<description value="A description of a landmark on the body used as a reference to locate something else."/>
+	<description value="The anatomic location on the body."/>
 	<fhirVersion value="3.0.1"/>
 	<kind value="complex-type"/>
 	<abstract value="false"/>
@@ -20,21 +20,21 @@
 	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>
 	<derivation value="constraint"/>
 	<differential>
-		<element id="Extension:BodyLandmarkDescriptionExt">
+		<element id="Extension:AnatomicLocationExt">
 			<path value="Extension"/>
-			<sliceName value="BodyLandmarkDescriptionExt"/>
-			<definition value="A description of a landmark on the body used as a reference to locate something else."/>
+			<sliceName value="AnatomicLocationExt"/>
+			<definition value="The anatomic location on the body."/>
 			<min value="0"/>
 			<max value="1"/>
 			<isModifier value="false"/>
 		</element>
-		<element id="Extension:BodyLandmarkDescriptionExt.url">
+		<element id="Extension:AnatomicLocationExt.url">
 			<path value="Extension.url"/>
 			<min value="1"/>
 			<max value="1"/>
-			<fixedUri value="http://hl7.org/fhir/hspc/podiatrywound/StructureDefinition/BodyLandmarkDescriptionExt"/>
+			<fixedUri value="http://hl7.org/fhir/hspc/podiatrywound/StructureDefinition/AnatomicLocationExt"/>
 		</element>
-		<element id="Extension:BodyLandmarkDescriptionExt.valueCodeableConcept">
+		<element id="Extension:AnatomicLocationExt.valueCodeableConcept">
 			<path value="Extension.valueCodeableConcept"/>
 			<min value="1"/>
 			<max value="1"/>
@@ -45,7 +45,7 @@
 			<binding>
 				<strength value="example"/>
 				<valueSetReference>
-					<reference value="http://hl7.org/fhir/hspc/podiatrywound/ValueSet/bodyLandmarkDescriptionVS"/>
+					<reference value="http://hl7.org/fhir/hspc/podiatrywound/ValueSet/woundAnatomicLocationVS"/>
 				</valueSetReference>
 			</binding>
 		</element>

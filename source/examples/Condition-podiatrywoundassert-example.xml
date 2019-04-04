@@ -10,6 +10,15 @@
 		</valueReference>
 	</extension>
 	<extension url="http://hl7.org/fhir/hspc/podiatrywound/StructureDefinition/PodiatryBodyLocationExt">
+		<extension url="http://hl7.org/fhir/hspc/podiatrywound/StructureDefinition/AnatomicLocationExt">
+			<valueCodeableConcept>
+				<coding>
+					<system value="http://snomed.info/sct"/>
+					<code value="244185002"/>
+					<display value="Entire skin of heel"/>
+				</coding>
+			</valueCodeableConcept>
+		</extension>
 		<extension url="http://hl7.org/fhir/hspc/podiatrywound/StructureDefinition/BodySideExt">
 			<valueCodeableConcept>
 				<coding>
@@ -91,15 +100,6 @@
 					<system value="http://snomed.info/sct"/>
 					<code value="255509001"/>
 					<display value="Large"/>
-				</coding>
-			</valueCodeableConcept>
-		</extension>
-		<extension url="http://hl7.org/fhir/hspc/podiatrywound/StructureDefinition/BodyAnatomicLocationExt">
-			<valueCodeableConcept>
-				<coding>
-					<system value="http://snomed.info/sct"/>
-					<code value="244185002"/>
-					<display value="Entire skin of heel"/>
 				</coding>
 			</valueCodeableConcept>
 		</extension>

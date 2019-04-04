@@ -1,16 +1,6 @@
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://loinc.org",
-  "code" : "89254-7"
-}, "valueSet" :null}####
-v: {
-  "display" : "Wound bed panel",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
   "code" : "72371-8"
 }, "valueSet" :null}####
 v: {
@@ -51,10 +41,10 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://loinc.org",
-  "code" : "89256-2"
+  "code" : "89254-7"
 }, "valueSet" :null}####
 v: {
-  "display" : "Wound edge panel",
+  "display" : "Wound bed panel",
   "severity" : null,
   "error" : ""
 }
@@ -75,6 +65,16 @@ v: {
 }, "valueSet" :null}####
 v: {
   "display" : "Edge of wound description",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "89256-2"
+}, "valueSet" :null}####
+v: {
+  "display" : "Wound edge panel",
   "severity" : null,
   "error" : ""
 }
@@ -151,17 +151,6 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://loinc.org",
-  "code" : "89254-7",
-  "display" : "Wound bed panel"
-}, "valueSet" :null}####
-v: {
-  "display" : "Wound bed panel",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
   "code" : "72371-8",
   "display" : "Appearance of Wound base"
 }, "valueSet" :null}####
@@ -206,11 +195,11 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://loinc.org",
-  "code" : "89256-2",
-  "display" : "Wound edge panel"
+  "code" : "89254-7",
+  "display" : "Wound bed panel"
 }, "valueSet" :null}####
 v: {
-  "display" : "Wound edge panel",
+  "display" : "Wound bed panel",
   "severity" : null,
   "error" : ""
 }
@@ -233,6 +222,17 @@ v: {
 }, "valueSet" :null}####
 v: {
   "display" : "Edge of wound description",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "89256-2",
+  "display" : "Wound edge panel"
+}, "valueSet" :null}####
+v: {
+  "display" : "Wound edge panel",
   "severity" : null,
   "error" : ""
 }

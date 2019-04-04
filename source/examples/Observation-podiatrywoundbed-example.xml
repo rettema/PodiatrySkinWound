@@ -2,7 +2,7 @@
 <Observation xmlns="http://hl7.org/fhir">
 	<id value="podiatrywoundbed-example"/>
 	<meta>
-		<profile value="http://hl7.org/fhir/hspc/podiatrywound/StructureDefinition/PodiatryWoundBed"/>
+		<profile value="http://hl7.org/fhir/hspc/podiatrywound/StructureDefinition/WoundBed"/>
 	</meta>
 	<identifier>
 		<system value="https://acme.org/identifiers"/>
@@ -35,14 +35,14 @@
 		<type value="has-member"/>
 		<target>
 			<reference value="Observation/podiatrywoundbedappearance-example"/>
-			<display value="Podiatry Wound Bed Appearance Example"/>
+			<display value="Wound Bed Appearance Example"/>
 		</target>
 	</related>
 	<related>
 		<type value="has-member"/>
 		<target>
 			<reference value="Observation/podiatrywoundbedcolor-example"/>
-			<display value="Podiatry Wound Bed Color Example"/>
+			<display value="Wound Bed Color Example"/>
 		</target>
 	</related>
 </Observation>

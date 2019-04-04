@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
     <!--© 2018 IHC Health Services, Inc. All Rights Reserved. This document is machine generated.-->
-    <id value="PodiatryWoundBedAppearance"/>
-    <url value="http://hl7.org/fhir/hspc/podiatrywound/StructureDefinition/PodiatryWoundBedAppearance"/>
-    <name value="PodiatryWoundBedAppearance"/>
-    <title value="Podiatry Wound Bed Appearance"/>
+    <id value="WoundBedAppearance"/>
+    <url value="http://hl7.org/fhir/hspc/podiatrywound/StructureDefinition/WoundBedAppearance"/>
+    <name value="WoundBedAppearance"/>
+    <title value="Wound Bed Appearance"/>
     <status value="draft"/>
-    <date value="2019-03-29"/>
+    <date value="2019-04-04"/>
     <publisher value="Healthcare Services Platform Consortium"/>
     <description value="Wound Bed Appearance describes how the wound bed looks."/>
     <fhirVersion value="3.0.1"/>
@@ -16,30 +16,30 @@
     <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Observation"/>
     <derivation value="constraint"/>
     <differential>
-        <element id="Observation:PodiatryWoundBedAppearance">
+        <element id="Observation:WoundBedAppearance">
             <path value="Observation"/>
 			<short value="Wound Bed Appearance"/>
             <definition value="Wound Bed Appearance describes how the wound bed looks."/>
         </element>
-        <element id="Observation:PodiatryWoundBedAppearance.code">
+        <element id="Observation:WoundBedAppearance.code">
             <path value="Observation.code"/>
         </element>
-		<element id="Observation:PodiatryWoundBedAppearance.code.coding">
+		<element id="Observation:WoundBedAppearance.code.coding">
 			<path value="Observation.code.coding"/>
 		</element>
-		<element id="Observation:PodiatryWoundBedAppearance.code.coding.system">
+		<element id="Observation:WoundBedAppearance.code.coding.system">
 			<path value="Observation.code.coding.system"/>
 			<fixedUri value="http://loinc.org"/>
 		</element>
-		<element id="Observation:PodiatryWoundBedAppearance.code.coding.code">
+		<element id="Observation:WoundBedAppearance.code.coding.code">
 			<path value="Observation.code.coding.code"/>
 			<fixedCode value="72371-8"/>
 		</element>
-		<element id="Observation:PodiatryWoundBedAppearance.code.coding.display">
+		<element id="Observation:WoundBedAppearance.code.coding.display">
 			<path value="Observation.code.coding.display"/>
 			<fixedString value="Appearance of Wound base"/>
 		</element>
-        <element id="Observation:PodiatryWoundBedAppearance.valueCodeableConcept">
+        <element id="Observation:WoundBedAppearance.valueCodeableConcept">
             <path value="Observation.valueCodeableConcept"/>
             <short value="Wound Bed Appearance code"/>
             <type>
@@ -53,7 +53,7 @@
             </binding>
         </element>
 
-		<element id="Observation:PodiatryWoundBedAppearance.component">
+		<element id="Observation:WoundBedAppearance.component">
 			<path value="Observation.component"/>
 			<slicing>
 				<discriminator>
@@ -67,7 +67,7 @@
 			<max value="*"/>
 		</element>
 
-		<element id="Observation:PodiatryWoundBedAppearance.component:WoundBedAppearanceArea">
+		<element id="Observation:WoundBedAppearance.component:WoundBedAppearanceArea">
 			<path value="Observation.component"/>
 			<sliceName value="WoundBedAppearanceArea"/>
 			<short value="Wound Bed Appearance Area"/>
@@ -75,31 +75,31 @@
 			<min value="0"/>
 			<max value="1"/>
 		</element>
-		<element id="Observation:PodiatryWoundBedAppearance.component.code:WoundBedAppearanceArea">
+		<element id="Observation:WoundBedAppearance.component.code:WoundBedAppearanceArea">
 			<path value="Observation.component.code"/>
 		</element>
-		<element id="Observation:PodiatryWoundBedAppearance.component.code.coding:WoundBedAppearanceArea">
+		<element id="Observation:WoundBedAppearance.component.code.coding:WoundBedAppearanceArea">
 			<path value="Observation.component.code.coding"/>
 		</element>
-		<element id="Observation:PodiatryWoundBedAppearance.component.code.coding.system:WoundBedAppearanceArea">
+		<element id="Observation:WoundBedAppearance.component.code.coding.system:WoundBedAppearanceArea">
 			<path value="Observation.component.code.coding.system"/>
 			<fixedUri value="http://loinc.org"/>
 		</element>
-		<element id="Observation:PodiatryWoundBedAppearance.component.code.coding.code:WoundBedAppearanceArea">
+		<element id="Observation:WoundBedAppearance.component.code.coding.code:WoundBedAppearanceArea">
 			<path value="Observation.component.code.coding.code"/>
 			<fixedCode value="72370-0"/>
 		</element>
-		<element id="Observation:PodiatryWoundBedAppearance.component.code.coding.display:WoundBedAppearanceArea">
+		<element id="Observation:WoundBedAppearance.component.code.coding.display:WoundBedAppearanceArea">
 			<path value="Observation.component.code.coding.display"/>
 			<fixedString value="Area of identified wound bed appearance/Area of wound bed of Wound base"/>
 		</element>
-		<element id="Observation:PodiatryWoundBedAppearance.component.valueQuantity:WoundBedAppearanceArea">
+		<element id="Observation:WoundBedAppearance.component.valueQuantity:WoundBedAppearanceArea">
 			<path value="Observation.component.valueQuantity"/>
 			<type>
 				<code value="Quantity"/>
 			</type>
 		</element>
-		<element id="Observation:PodiatryWoundBedAppearance.component.valueQuantity.system:WoundBedAppearanceArea">
+		<element id="Observation:WoundBedAppearance.component.valueQuantity.system:WoundBedAppearanceArea">
 			<path value="Observation.component.valueQuantity.system"/>
 			<type>
 				<code value="uri"/>
@@ -109,7 +109,7 @@
 			<mustSupport value="false"/>
 			<isModifier value="false"/>
 		</element>
-		<element id="Observation:PodiatryWoundBedAppearance.component.valueQuantity.code:WoundBedAppearanceArea">
+		<element id="Observation:WoundBedAppearance.component.valueQuantity.code:WoundBedAppearanceArea">
 			<path value="Observation.component.valueQuantity.code"/>
 			<type>
 				<code value="code"/>

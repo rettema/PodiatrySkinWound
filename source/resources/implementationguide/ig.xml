@@ -62,13 +62,6 @@
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="StructureDefinition/BodyLandmarkDescriptionExt"/>
-				<display value="Body Landmark Description Extension"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
 				<reference value="StructureDefinition/PodiatryBodyLandmarkDescriptionExt"/>
 				<display value="Podiatry Body Landmark Description Extension"/>
 			</sourceReference>
@@ -76,29 +69,15 @@
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="StructureDefinition/PodiatryUnderlyingAnatomicalStructureExt"/>
-				<display value="Podiatry Underlying Anatomical Structure Extension"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
-				<reference value="StructureDefinition/UnderlyingAnatomicalStructureExt"/>
-				<display value="Underlying Anatomical Structure Extension"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
-				<reference value="StructureDefinition/BodyLandmarkOrientationExt"/>
-				<display value="Body Landmark Orientation Extension"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
 				<reference value="StructureDefinition/PodiatryBodyLandmarkOrientationExt"/>
 				<display value="Podiatry Body Landmark Orientation Extension"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="StructureDefinition/PodiatryUnderlyingAnatomicalStructureExt"/>
+				<display value="Podiatry Underlying Anatomical Structure Extension"/>
 			</sourceReference>
 		</resource>
 		<resource>
@@ -118,8 +97,8 @@
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="StructureDefinition/BodyAnatomicLocationExt"/>
-				<display value="Body Anatomic Location Extension"/>
+				<reference value="StructureDefinition/AnatomicLocationExt"/>
+				<display value="Anatomic Location Extension"/>
 			</sourceReference>
 		</resource>
 		<resource>
@@ -132,13 +111,6 @@
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="StructureDefinition/BodyLocationExt"/>
-				<display value="Body Location Extension"/>
-			</sourceReference> 
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
 				<reference value="StructureDefinition/PodiatryBodyLocationExt"/>
 				<display value="Podiatry Body Location Extension"/>
 			</sourceReference> 
@@ -147,29 +119,43 @@
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="StructureDefinition/PodiatryWoundBedAppearance"/>
-				<display value="Podiatry Wound Bed Appearance"/>
+				<reference value="StructureDefinition/WoundBedAppearance"/>
+				<display value="Wound Bed Appearance"/>
 			</sourceReference>
 		</resource>
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="StructureDefinition/PodiatryWoundBedColor"/>
-				<display value="Podiatry Wound Bed Color"/>
+				<reference value="StructureDefinition/WoundBedColor"/>
+				<display value="Wound Bed Color"/>
 			</sourceReference>
 		</resource>
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="StructureDefinition/PodiatryWoundBed"/>
-				<display value="Podiatry Wound Bed"/>
+				<reference value="StructureDefinition/WoundBed"/>
+				<display value="Wound Bed"/>
 			</sourceReference>
 		</resource>
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="StructureDefinition/PodiatryWoundEdge"/>
-				<display value="Podiatry Wound Edge"/>
+				<reference value="StructureDefinition/WoundEdgeColor"/>
+				<display value="Wound Edge Color"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="StructureDefinition/WoundEdgeDescription"/>
+				<display value="Wound EdgeDescription"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="false"/>
+			<sourceReference>
+				<reference value="StructureDefinition/WoundEdge"/>
+				<display value="Wound Edge"/>
 			</sourceReference>
 		</resource>
 		<resource>
@@ -254,14 +240,14 @@
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="ValueSet/SurfaceOrientationVS"/>
+				<reference value="ValueSet/surfaceOrientationVS"/>
 				<display value="Surface Orientation value set"/>
 			</sourceReference>
 		</resource>
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="ValueSet/UnderlyingAnatomicalStructureVS"/>
+				<reference value="ValueSet/underlyingAnatomicalStructureVS"/>
 				<display value="Underlying Anatomical Structure value set"/>
 			</sourceReference>
 		</resource>
@@ -356,6 +342,20 @@
 			<sourceReference>
 				<reference value="Observation/podiatrywoundbed-example"/>
 				<display value="Observation Podiatry Wound Bed example"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="true"/>
+			<sourceReference>
+				<reference value="Observation/podiatrywoundedgecolor-example"/>
+				<display value="Observation Podiatry Wound Edge Color example"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="true"/>
+			<sourceReference>
+				<reference value="Observation/podiatrywoundedgedescription-example"/>
+				<display value="Observation Podiatry Wound Edge Description example"/>
 			</sourceReference>
 		</resource>
 		<resource>

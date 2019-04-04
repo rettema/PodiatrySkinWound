@@ -19,8 +19,8 @@ e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
   "expansion" : {
-    "identifier" : "urn:uuid:0be3fa9d-cb31-412a-ae2e-54904c5817dc",
-    "timestamp" : "2019-03-27T20:20:04-04:00",
+    "identifier" : "urn:uuid:2d6d5196-fe89-4f3c-8472-964577f5d992",
+    "timestamp" : "2019-04-04T19:15:29-04:00",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueString" : "-1"
@@ -240,8 +240,8 @@ e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
   "expansion" : {
-    "identifier" : "urn:uuid:f2e38be2-002e-43ce-bcf8-089cf3d70fa4",
-    "timestamp" : "2019-03-27T20:20:04-04:00",
+    "identifier" : "urn:uuid:13bb6597-9af4-449e-9d41-6000b29a5fa9",
+    "timestamp" : "2019-04-04T19:15:29-04:00",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueString" : "-1"
@@ -553,8 +553,8 @@ e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
   "expansion" : {
-    "identifier" : "urn:uuid:11bf35bd-2a20-4398-96d1-0f6148111995",
-    "timestamp" : "2019-03-27T20:20:05-04:00",
+    "identifier" : "urn:uuid:26874c8c-d05a-4349-ac16-ad9aafcd6272",
+    "timestamp" : "2019-04-04T19:15:29-04:00",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueString" : "-1"
@@ -666,8 +666,8 @@ e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
   "expansion" : {
-    "identifier" : "urn:uuid:ece94c50-afce-460c-8404-529dd18430f8",
-    "timestamp" : "2019-03-27T20:20:05-04:00",
+    "identifier" : "urn:uuid:91e5e8b4-384e-4cbc-8122-298ecbb8af1a",
+    "timestamp" : "2019-04-04T19:15:30-04:00",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueString" : "-1"
@@ -761,8 +761,8 @@ e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
   "expansion" : {
-    "identifier" : "urn:uuid:0575a2ba-f679-4424-ad67-ff13ac8f2cc0",
-    "timestamp" : "2019-03-27T20:20:05-04:00",
+    "identifier" : "urn:uuid:d6c6e8c5-2b38-4c26-8bb3-6e6ca91a50d8",
+    "timestamp" : "2019-04-04T19:15:30-04:00",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueString" : "-1"
@@ -988,8 +988,8 @@ e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
   "expansion" : {
-    "identifier" : "urn:uuid:032e6d36-dfe5-4dec-9e2a-082a23110e63",
-    "timestamp" : "2019-03-27T20:20:05-04:00",
+    "identifier" : "urn:uuid:6ba5965a-226a-46a8-b551-a9c90d53ead1",
+    "timestamp" : "2019-04-04T19:15:30-04:00",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueString" : "-1"
@@ -1232,8 +1232,8 @@ e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
   "expansion" : {
-    "identifier" : "urn:uuid:67a6d9b0-05d1-45c0-bf31-0caffdff47dd",
-    "timestamp" : "2019-03-27T20:20:06-04:00",
+    "identifier" : "urn:uuid:b07ebe14-b667-455f-86a5-5968f1c6ab02",
+    "timestamp" : "2019-04-04T19:15:30-04:00",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueString" : "-1"
@@ -1327,8 +1327,8 @@ e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
   "expansion" : {
-    "identifier" : "urn:uuid:0c05b879-4c48-44dd-a0e0-a7dc55e5ebdf",
-    "timestamp" : "2019-03-27T20:20:06-04:00",
+    "identifier" : "urn:uuid:888a986d-7474-4e75-970b-5563b5a10ec7",
+    "timestamp" : "2019-04-04T19:15:31-04:00",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueString" : "-1"
@@ -1437,8 +1437,8 @@ e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
   "expansion" : {
-    "identifier" : "urn:uuid:140b32a5-a32f-4d19-aea0-1d5b4ba7493b",
-    "timestamp" : "2019-03-27T20:20:06-04:00",
+    "identifier" : "urn:uuid:6290401c-483d-4b19-b3d2-ac5dbfe871bc",
+    "timestamp" : "2019-04-04T19:15:31-04:00",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueString" : "-1"
@@ -1776,8 +1776,8 @@ e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
   "expansion" : {
-    "identifier" : "urn:uuid:ec435865-a99c-43f9-9423-83bbedf8c692",
-    "timestamp" : "2019-03-27T20:20:06-04:00",
+    "identifier" : "urn:uuid:7cde73b3-d9b2-4336-acea-59bf85bfe86f",
+    "timestamp" : "2019-04-04T19:15:31-04:00",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueString" : "-1"
@@ -2146,8 +2146,8 @@ e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
   "expansion" : {
-    "identifier" : "urn:uuid:c3778e69-8243-4ead-aff7-73bb4e2798a6",
-    "timestamp" : "2019-03-27T20:20:06-04:00",
+    "identifier" : "urn:uuid:5589936f-bcb7-415c-8bd5-d962a8d494a3",
+    "timestamp" : "2019-04-04T19:15:32-04:00",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueString" : "-1"
@@ -2240,8 +2240,8 @@ e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
   "expansion" : {
-    "identifier" : "urn:uuid:cf5068c1-57f5-458c-b0c2-7dbf688abfac",
-    "timestamp" : "2019-03-27T20:20:07-04:00",
+    "identifier" : "urn:uuid:fbbc8d67-29ae-4d4d-a5fd-0130ac4f1d39",
+    "timestamp" : "2019-04-04T19:15:32-04:00",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueString" : "-1"
@@ -2335,8 +2335,8 @@ e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
   "expansion" : {
-    "identifier" : "urn:uuid:1b42978a-0223-426f-aaf7-9b76b0df605f",
-    "timestamp" : "2019-03-27T20:20:07-04:00",
+    "identifier" : "urn:uuid:86509413-11ab-42ab-ac07-6561f2440a06",
+    "timestamp" : "2019-04-04T19:15:32-04:00",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueString" : "-1"
@@ -2405,8 +2405,8 @@ e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
   "expansion" : {
-    "identifier" : "urn:uuid:3dc0b7e1-36af-411c-8df8-cc65ccd27495",
-    "timestamp" : "2019-03-27T20:20:07-04:00",
+    "identifier" : "urn:uuid:b0ba6303-b492-42a6-acc6-e577f241ee16",
+    "timestamp" : "2019-04-04T19:15:32-04:00",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueString" : "-1"
@@ -2558,8 +2558,8 @@ e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
   "expansion" : {
-    "identifier" : "urn:uuid:d74c09b9-15bf-4d31-9a86-8904a830dfb4",
-    "timestamp" : "2019-03-27T20:20:07-04:00",
+    "identifier" : "urn:uuid:145c0ec7-82a7-4e9a-b3cc-77cc0a67ad42",
+    "timestamp" : "2019-04-04T19:15:33-04:00",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueString" : "-1"
@@ -2750,10 +2750,10 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
-  "code" : "371240000"
+  "code" : "371251000"
 }, "valueSet" :null}####
 v: {
-  "display" : "Red color (qualifier value)",
+  "display" : "White color (qualifier value)",
   "severity" : null,
   "error" : ""
 }
@@ -2770,10 +2770,31 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
+  "code" : "371240000"
+}, "valueSet" :null}####
+v: {
+  "display" : "Red color (qualifier value)",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
   "code" : "261074009"
 }, "valueSet" :null}####
 v: {
   "display" : "External",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "244185002",
+  "display" : "Entire skin of heel"
+}, "valueSet" :null}####
+v: {
+  "display" : "Entire skin of heel",
   "severity" : null,
   "error" : ""
 }
@@ -3057,17 +3078,6 @@ v: {
 }
 -------------------------------------------------------------------------------------
 {"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "244185002",
-  "display" : "Entire skin of heel"
-}, "valueSet" :null}####
-v: {
-  "display" : "Entire skin of heel",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
   "coding" : [{
     "system" : "http://snomed.info/sct",
     "code" : "400012003",
@@ -3339,8 +3349,56 @@ v: {
 {"code" : {
   "coding" : [{
     "system" : "http://snomed.info/sct",
-    "code" : "371240000",
-    "display" : "Red color"
+    "code" : "371250004",
+    "display" : "Purple color"
+  }]
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "449746002",
+        "display" : "Wound slough"
+      },
+      {
+        "code" : "225541009",
+        "display" : "Granulation of tissue"
+      },
+      {
+        "code" : "449745003",
+        "display" : "Fibrinous wound bed"
+      },
+      {
+        "code" : "449743005",
+        "display" : "Wound epithelialization"
+      },
+      {
+        "code" : "421306004",
+        "display" : "Necrotic eschar"
+      },
+      {
+        "code" : "609410002",
+        "display" : "Necrosis of anatomical site"
+      },
+      {
+        "code" : "409590008:58158008",
+        "display" : "Stable Eschar"
+      }]
+    }]
+  }
+}}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code provided (http://snomed.info/sct#371250004) is not  valid in the value set Wound Bed Appearance Value Set"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://snomed.info/sct",
+    "code" : "225541009",
+    "display" : "Granulation of tissue"
   }]
 }, "valueSet" :{
   "resourceType" : "ValueSet",
@@ -3383,18 +3441,70 @@ v: {
   }
 }}####
 v: {
-  "display" : "Red color (qualifier value)",
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code provided (http://snomed.info/sct#225541009) is not  valid in the value set Wound Bed Color Value Set"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://snomed.info/sct",
+    "code" : "371251000",
+    "display" : "White color"
+  }]
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "371244009",
+        "display" : "Yellow color"
+      },
+      {
+        "code" : "371252007",
+        "display" : "Black color"
+      },
+      {
+        "code" : "371254008",
+        "display" : "Brown color"
+      },
+      {
+        "code" : "371243003",
+        "display" : "Pink color"
+      },
+      {
+        "code" : "371240000",
+        "display" : "Red color"
+      },
+      {
+        "code" : "371251000",
+        "display" : "White color"
+      },
+      {
+        "code" : "371253002",
+        "display" : "Gray color"
+      },
+      {
+        "code" : "371250004",
+        "display" : "Purple color"
+      }]
+    }]
+  }
+}}####
+v: {
+  "display" : "White color (qualifier value)",
   "severity" : null,
   "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
-  "code" : "371240000",
-  "display" : "Red color"
+  "code" : "371251000",
+  "display" : "White color"
 }, "valueSet" :null}####
 v: {
-  "display" : "Red color (qualifier value)",
+  "display" : "White color (qualifier value)",
   "severity" : null,
   "error" : ""
 }
@@ -3459,14 +3569,210 @@ v: {
 }
 -------------------------------------------------------------------------------------
 {"code" : {
+  "coding" : [{
+    "system" : "http://snomed.info/sct",
+    "code" : "449760000",
+    "display" : "Scab of wound edge"
+  }]
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "371244009",
+        "display" : "Yellow color"
+      },
+      {
+        "code" : "371252007",
+        "display" : "Black color"
+      },
+      {
+        "code" : "371254008",
+        "display" : "Brown color"
+      },
+      {
+        "code" : "371243003",
+        "display" : "Pink color"
+      },
+      {
+        "code" : "371240000",
+        "display" : "Red color"
+      },
+      {
+        "code" : "371251000",
+        "display" : "White color"
+      },
+      {
+        "code" : "371253002",
+        "display" : "Gray color"
+      },
+      {
+        "code" : "371250004",
+        "display" : "Purple color"
+      }]
+    }]
+  }
+}}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code provided (http://snomed.info/sct#449760000) is not  valid in the value set Wound Edge Color Value Set"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://snomed.info/sct",
+    "code" : "371251000",
+    "display" : "White color"
+  }]
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "449741007",
+        "display" : "Wound edges approximated"
+      },
+      {
+        "code" : "427832005",
+        "display" : "Dehiscence of wound of skin"
+      },
+      {
+        "code" : "449751008",
+        "display" : "Rolled wound edge"
+      },
+      {
+        "code" : "449760000",
+        "display" : "Scab of wound edge"
+      },
+      {
+        "code" : "449749009",
+        "display" : "Wound edge diffuse"
+      },
+      {
+        "code" : "449750009",
+        "display" : "Wound edge sharp"
+      },
+      {
+        "code" : "449748001",
+        "display" : "Wound edges attached"
+      }]
+    }]
+  }
+}}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code provided (http://snomed.info/sct#371251000) is not  valid in the value set Wound Edge Description Value Set"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
   "system" : "http://snomed.info/sct",
-  "code" : "261074009",
-  "display" : "External"
+  "code" : "371240000",
+  "display" : "Red color"
 }, "valueSet" :null}####
 v: {
-  "display" : "External",
+  "display" : "Red color (qualifier value)",
   "severity" : null,
   "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://snomed.info/sct",
+    "code" : "371251000",
+    "display" : "White color"
+  }]
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "449746002",
+        "display" : "Wound slough"
+      },
+      {
+        "code" : "225541009",
+        "display" : "Granulation of tissue"
+      },
+      {
+        "code" : "449745003",
+        "display" : "Fibrinous wound bed"
+      },
+      {
+        "code" : "449743005",
+        "display" : "Wound epithelialization"
+      },
+      {
+        "code" : "421306004",
+        "display" : "Necrotic eschar"
+      },
+      {
+        "code" : "609410002",
+        "display" : "Necrosis of anatomical site"
+      },
+      {
+        "code" : "409590008:58158008",
+        "display" : "Stable Eschar"
+      }]
+    }]
+  }
+}}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code provided (http://snomed.info/sct#371251000) is not  valid in the value set Wound Bed Appearance Value Set"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://snomed.info/sct",
+    "code" : "449760000",
+    "display" : "Scab of wound edge"
+  }]
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "449746002",
+        "display" : "Wound slough"
+      },
+      {
+        "code" : "225541009",
+        "display" : "Granulation of tissue"
+      },
+      {
+        "code" : "449745003",
+        "display" : "Fibrinous wound bed"
+      },
+      {
+        "code" : "449743005",
+        "display" : "Wound epithelialization"
+      },
+      {
+        "code" : "421306004",
+        "display" : "Necrotic eschar"
+      },
+      {
+        "code" : "609410002",
+        "display" : "Necrosis of anatomical site"
+      },
+      {
+        "code" : "409590008:58158008",
+        "display" : "Stable Eschar"
+      }]
+    }]
+  }
+}}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code provided (http://snomed.info/sct#449760000) is not  valid in the value set Wound Bed Appearance Value Set"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -3521,6 +3827,113 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "261074009",
+  "display" : "External"
+}, "valueSet" :null}####
+v: {
+  "display" : "External",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://snomed.info/sct",
+    "code" : "225541009",
+    "display" : "Granulation of tissue"
+  }]
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "449741007",
+        "display" : "Wound edges approximated"
+      },
+      {
+        "code" : "427832005",
+        "display" : "Dehiscence of wound of skin"
+      },
+      {
+        "code" : "449751008",
+        "display" : "Rolled wound edge"
+      },
+      {
+        "code" : "449760000",
+        "display" : "Scab of wound edge"
+      },
+      {
+        "code" : "449749009",
+        "display" : "Wound edge diffuse"
+      },
+      {
+        "code" : "449750009",
+        "display" : "Wound edge sharp"
+      },
+      {
+        "code" : "449748001",
+        "display" : "Wound edges attached"
+      }]
+    }]
+  }
+}}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code provided (http://snomed.info/sct#225541009) is not  valid in the value set Wound Edge Description Value Set"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://snomed.info/sct",
+    "code" : "371250004",
+    "display" : "Purple color"
+  }]
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "449741007",
+        "display" : "Wound edges approximated"
+      },
+      {
+        "code" : "427832005",
+        "display" : "Dehiscence of wound of skin"
+      },
+      {
+        "code" : "449751008",
+        "display" : "Rolled wound edge"
+      },
+      {
+        "code" : "449760000",
+        "display" : "Scab of wound edge"
+      },
+      {
+        "code" : "449749009",
+        "display" : "Wound edge diffuse"
+      },
+      {
+        "code" : "449750009",
+        "display" : "Wound edge sharp"
+      },
+      {
+        "code" : "449748001",
+        "display" : "Wound edges attached"
+      }]
+    }]
+  }
+}}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code provided (http://snomed.info/sct#371250004) is not  valid in the value set Wound Edge Description Value Set"
+}
+-------------------------------------------------------------------------------------
 {"hierarchical" : true, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
@@ -3541,8 +3954,8 @@ e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
   "expansion" : {
-    "identifier" : "urn:uuid:b0e0a770-b955-4214-bdf8-3555099a3995",
-    "timestamp" : "2019-03-27T20:20:36-04:00",
+    "identifier" : "urn:uuid:ba083813-762c-4c4d-a0b0-833700177257",
+    "timestamp" : "2019-04-04T19:16:09-04:00",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueString" : "-1"
@@ -3762,8 +4175,8 @@ e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
   "expansion" : {
-    "identifier" : "urn:uuid:aa3289f3-b300-4de1-bacd-416937823710",
-    "timestamp" : "2019-03-27T20:20:36-04:00",
+    "identifier" : "urn:uuid:8a46b8b0-d092-477c-acc1-6e318c5d6aae",
+    "timestamp" : "2019-04-04T19:16:09-04:00",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueString" : "-1"
@@ -4075,8 +4488,8 @@ e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
   "expansion" : {
-    "identifier" : "urn:uuid:bb3842a0-9513-40e5-8aeb-b856f67911eb",
-    "timestamp" : "2019-03-27T20:20:36-04:00",
+    "identifier" : "urn:uuid:e4d4efb9-678b-4ceb-a275-95ca7724cb4d",
+    "timestamp" : "2019-04-04T19:16:10-04:00",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueString" : "-1"
@@ -4188,8 +4601,8 @@ e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
   "expansion" : {
-    "identifier" : "urn:uuid:48cddf65-d31a-4af0-a4dc-74e4e8f50724",
-    "timestamp" : "2019-03-27T20:20:36-04:00",
+    "identifier" : "urn:uuid:1c98758b-1648-48ee-b93c-be7ff6145fda",
+    "timestamp" : "2019-04-04T19:16:10-04:00",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueString" : "-1"
@@ -4283,8 +4696,8 @@ e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
   "expansion" : {
-    "identifier" : "urn:uuid:421fb1c0-efc3-48aa-a1b2-70e41325759a",
-    "timestamp" : "2019-03-27T20:20:37-04:00",
+    "identifier" : "urn:uuid:dfcf9fd9-ad49-40d4-bb0e-dc783a15f127",
+    "timestamp" : "2019-04-04T19:16:10-04:00",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueString" : "-1"
@@ -4510,8 +4923,8 @@ e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
   "expansion" : {
-    "identifier" : "urn:uuid:745d14b4-d806-49f6-bb5d-6ef5a7c1df58",
-    "timestamp" : "2019-03-27T20:20:37-04:00",
+    "identifier" : "urn:uuid:dc341fee-861f-4f7a-a48c-da477d1296ae",
+    "timestamp" : "2019-04-04T19:16:10-04:00",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueString" : "-1"
@@ -4721,8 +5134,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:ac7cbf7c-2c8e-4d96-a652-16959835caf2",
-    "timestamp" : "2019-03-27T20:20:37-04:00",
+    "identifier" : "urn:uuid:b62adaf1-ab9c-4d53-9e89-80bea9e174c1",
+    "timestamp" : "2019-04-04T19:16:10-04:00",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueString" : "-1"
@@ -5375,8 +5788,8 @@ e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
   "expansion" : {
-    "identifier" : "urn:uuid:c4f60272-da48-4c6d-844f-e1c1a67414ae",
-    "timestamp" : "2019-03-27T20:20:43-04:00",
+    "identifier" : "urn:uuid:43fb087f-d4f9-4c3f-99a9-0db3a055c848",
+    "timestamp" : "2019-04-04T19:16:17-04:00",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueString" : "-1"
@@ -5470,8 +5883,8 @@ e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
   "expansion" : {
-    "identifier" : "urn:uuid:e6348aa4-ce6b-44ca-a5da-dc8f3a70fd1e",
-    "timestamp" : "2019-03-27T20:20:43-04:00",
+    "identifier" : "urn:uuid:ae9bfec2-074f-4a1b-879a-815a56479404",
+    "timestamp" : "2019-04-04T19:16:17-04:00",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueString" : "-1"
@@ -5580,8 +5993,8 @@ e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
   "expansion" : {
-    "identifier" : "urn:uuid:6b764bef-2d9b-42f6-aba8-e31faa8522be",
-    "timestamp" : "2019-03-27T20:20:44-04:00",
+    "identifier" : "urn:uuid:c321af1a-6a2c-4ed2-8ccf-6788182c3ffa",
+    "timestamp" : "2019-04-04T19:16:18-04:00",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueString" : "-1"
@@ -5919,8 +6332,8 @@ e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
   "expansion" : {
-    "identifier" : "urn:uuid:14a7b391-5709-42ff-b55f-c60523c79c11",
-    "timestamp" : "2019-03-27T20:20:44-04:00",
+    "identifier" : "urn:uuid:feaf1d7f-7f35-4787-9d71-b716815c25e5",
+    "timestamp" : "2019-04-04T19:16:18-04:00",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueString" : "-1"
@@ -6289,8 +6702,8 @@ e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
   "expansion" : {
-    "identifier" : "urn:uuid:cadbdcb1-60b5-4453-bc8e-18334ddaea28",
-    "timestamp" : "2019-03-27T20:20:44-04:00",
+    "identifier" : "urn:uuid:a88df469-a2af-4843-a69a-77903510ce8e",
+    "timestamp" : "2019-04-04T19:16:18-04:00",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueString" : "-1"
@@ -6383,8 +6796,8 @@ e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
   "expansion" : {
-    "identifier" : "urn:uuid:c889a888-208e-444a-b11f-d0c88ff100dc",
-    "timestamp" : "2019-03-27T20:20:44-04:00",
+    "identifier" : "urn:uuid:b2bed0a6-a05b-48d3-aa66-f95f75d7b153",
+    "timestamp" : "2019-04-04T19:16:18-04:00",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueString" : "-1"
@@ -6478,8 +6891,8 @@ e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
   "expansion" : {
-    "identifier" : "urn:uuid:b47c59fc-d588-402c-8404-c5c23fa3bd7b",
-    "timestamp" : "2019-03-27T20:20:45-04:00",
+    "identifier" : "urn:uuid:2010f725-194f-4ba6-8604-0a3fb1f64099",
+    "timestamp" : "2019-04-04T19:16:18-04:00",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueString" : "-1"
@@ -6548,8 +6961,8 @@ e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
   "expansion" : {
-    "identifier" : "urn:uuid:89eae75b-9d44-4cc5-935c-9926eb429f19",
-    "timestamp" : "2019-03-27T20:20:45-04:00",
+    "identifier" : "urn:uuid:a10c6747-69dc-4c8e-929b-865f0c84c0f4",
+    "timestamp" : "2019-04-04T19:16:19-04:00",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueString" : "-1"
@@ -6701,8 +7114,8 @@ e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
   "expansion" : {
-    "identifier" : "urn:uuid:824c519f-0af6-453b-bbc7-74bcde2e80ba",
-    "timestamp" : "2019-03-27T20:20:45-04:00",
+    "identifier" : "urn:uuid:05d76534-6c08-49e1-a3c9-71e0299b02f9",
+    "timestamp" : "2019-04-04T19:16:19-04:00",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueString" : "-1"
@@ -6859,105 +7272,5 @@ e: {
   }
 },
   "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "coding" : [{
-    "system" : "http://snomed.info/sct",
-    "code" : "371250004",
-    "display" : "Purple color"
-  }]
-}, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "449746002",
-        "display" : "Wound slough"
-      },
-      {
-        "code" : "225541009",
-        "display" : "Granulation of tissue"
-      },
-      {
-        "code" : "449745003",
-        "display" : "Fibrinous wound bed"
-      },
-      {
-        "code" : "449743005",
-        "display" : "Wound epithelialization"
-      },
-      {
-        "code" : "421306004",
-        "display" : "Necrotic eschar"
-      },
-      {
-        "code" : "609410002",
-        "display" : "Necrosis of anatomical site"
-      },
-      {
-        "code" : "409590008:58158008",
-        "display" : "Stable Eschar"
-      }]
-    }]
-  }
-}}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (http://snomed.info/sct#371250004) is not  valid in the value set Wound Bed Appearance Value Set"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "coding" : [{
-    "system" : "http://snomed.info/sct",
-    "code" : "225541009",
-    "display" : "Granulation of tissue"
-  }]
-}, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "371244009",
-        "display" : "Yellow color"
-      },
-      {
-        "code" : "371252007",
-        "display" : "Black color"
-      },
-      {
-        "code" : "371254008",
-        "display" : "Brown color"
-      },
-      {
-        "code" : "371243003",
-        "display" : "Pink color"
-      },
-      {
-        "code" : "371240000",
-        "display" : "Red color"
-      },
-      {
-        "code" : "371251000",
-        "display" : "White color"
-      },
-      {
-        "code" : "371253002",
-        "display" : "Gray color"
-      },
-      {
-        "code" : "371250004",
-        "display" : "Purple color"
-      }]
-    }]
-  }
-}}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (http://snomed.info/sct#225541009) is not  valid in the value set Wound Bed Color Value Set"
 }
 -------------------------------------------------------------------------------------

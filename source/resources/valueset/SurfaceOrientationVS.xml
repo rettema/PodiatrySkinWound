@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-	<id value="SurfaceOrientationVS"/>
-	<url value="http://hl7.org/fhir/hspc/podiatrywound/ValueSet/SurfaceOrientationVS"/>
+	<id value="surfaceOrientationVS"/>
+	<url value="http://hl7.org/fhir/hspc/podiatrywound/ValueSet/surfaceOrientationVS"/>
 	<version value="0.01"/>
 	<name value="Surface Orientation value set"/>
 	<status value="draft"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-	<id value="UnderlyingAnatomicalStructureVS"/>
-	<url value="http://hl7.org/fhir/hspc/podiatrywound/ValueSet/UnderlyingAnatomicalStructureVS"/>
+	<id value="underlyingAnatomicalStructureVS"/>
+	<url value="http://hl7.org/fhir/hspc/podiatrywound/ValueSet/underlyingAnatomicalStructureVS"/>
 	<version value="0.01"/>
 	<name value="Underlying Anatomical Structure value set"/>
 	<status value="draft"/>

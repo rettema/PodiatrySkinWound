@@ -6,7 +6,7 @@
     <name value="PodiatryWoundRelatedObservationsPanel"/>
     <title value="Podiatry Wound Related Observations Panel"/>
     <status value="draft"/>
-    <date value="2019-03-27"/>
+    <date value="2019-04-04"/>
     <publisher value="CIMI"/>
     <description value="Observations that are linked to a wound."/>
     <fhirVersion value="3.0.1"/>
@@ -56,40 +56,40 @@
             <min value="0"/>
             <max value="*"/>
 		</element>
-		<element id="Observation:PodiatryWoundRelatedObservationsPanel.related:PodiatryWoundBed">
+		<element id="Observation:PodiatryWoundRelatedObservationsPanel.related:WoundBed">
 			<path value="Observation.related"/>
-			<sliceName value="PodiatryWoundBed"/>
+			<sliceName value="WoundBed"/>
 			<short value="Wound Bed"/>
 			<min value="0"/>
 			<max value="*"/>
 		</element>
-		<element id="Observation:PodiatryWoundRelatedObservationsPanel.related.type:PodiatryWoundBed">
+		<element id="Observation:PodiatryWoundRelatedObservationsPanel.related.type:WoundBed">
 			<path value="Observation.related.type"/>
 			<fixedCode value="has-member"/>
 		</element>
-		<element id="Observation:PodiatryWoundRelatedObservationsPanel.related.target:PodiatryWoundBed">
+		<element id="Observation:PodiatryWoundRelatedObservationsPanel.related.target:WoundBed">
 			<path value="Observation.related.target"/>
 			<type>
 				<code value="Reference"/>
-				<targetProfile value="http://hl7.org/fhir/hspc/podiatrywound/StructureDefinition/PodiatryWoundBed"/>
+				<targetProfile value="http://hl7.org/fhir/hspc/podiatrywound/StructureDefinition/WoundBed"/>
 			</type>
 		</element>
-		<element id="Observation:PodiatryWoundRelatedObservationsPanel.related:PodiatryWoundEdge">
+		<element id="Observation:PodiatryWoundRelatedObservationsPanel.related:WoundEdge">
 			<path value="Observation.related"/>
-			<sliceName value="PodiatryWoundEdge"/>
+			<sliceName value="WoundEdge"/>
 			<short value="Wound Edge"/>
 			<min value="0"/>
 			<max value="*"/>
 		</element>
-		<element id="Observation:PodiatryWoundRelatedObservationsPanel.related.type:PodiatryWoundEdge">
+		<element id="Observation:PodiatryWoundRelatedObservationsPanel.related.type:WoundEdge">
 			<path value="Observation.related.type"/>
 			<fixedCode value="has-member"/>
 		</element>
-		<element id="Observation:PodiatryWoundRelatedObservationsPanel.related.target:PodiatryWoundEdge">
+		<element id="Observation:PodiatryWoundRelatedObservationsPanel.related.target:WoundEdge">
 			<path value="Observation.related.target"/>
 			<type>
 				<code value="Reference"/>
-				<targetProfile value="http://hl7.org/fhir/hspc/podiatrywound/StructureDefinition/PodiatryWoundEdge"/>
+				<targetProfile value="http://hl7.org/fhir/hspc/podiatrywound/StructureDefinition/WoundEdge"/>
 			</type>
 		</element>
 		<element id="Observation:PodiatryWoundRelatedObservationsPanel.related:WoundSize">
