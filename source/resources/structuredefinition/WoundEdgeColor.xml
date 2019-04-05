@@ -10,7 +10,7 @@
     <publisher value="Healthcare Services Platform Consortium"/>
     <description value="Wound Edge Color describes the hue of the boundaries of a wound."/>
     <fhirVersion value="3.0.1"/>
-    <kind value="complex-type"/>
+    <kind value="resource"/>
     <abstract value="false"/>
     <type value="Observation"/>
     <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Observation"/>

@@ -148,7 +148,7 @@
 			<example value="false"/>
 			<sourceReference>
 				<reference value="StructureDefinition/WoundEdgeDescription"/>
-				<display value="Wound EdgeDescription"/>
+				<display value="Wound Edge Description"/>
 			</sourceReference>
 		</resource>
 		<resource>

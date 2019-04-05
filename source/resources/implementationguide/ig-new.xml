@@ -193,7 +193,7 @@
     <resource>
       <reference>
         <reference value="StructureDefinition/WoundEdgeDescription"/>
-        <display value="Wound EdgeDescription"/>
+        <display value="Wound Edge Description"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
